@@ -1,0 +1,31 @@
+﻿<div class="formbuilder-edit-designer-item-area">
+    <div class="formbuilder-edit-designer-item-area-toolbar">
+        <span class="formbuilder-edit-designer-icon icon-edit-w-20" title="Edit" onclick="ProviderBaseAdmin.FormBuilderTemplateItemAreaEdit($FORMBUILDERTEMPLATEITEMAREAID$);"></span>
+        <span class="formbuilder-edit-designer-item-area-type">
+            $FORMBUILDERTEMPLATEITEMAREATYPE$
+        </span>
+        <span class="formbuilder-edit-designer-item-area-class">
+            class=&#34;$CLASS$&#34;
+        </span>
+        <span class="formbuilder-edit-designer-item-area-style">
+            style=&#34;$STYLE$&#34;
+        </span>
+
+        <span class="formbuilder-edit-designer-icon icon-short_arrow_right-w-20 js-item-area-display-icon floatright rotate90" title="Collapse" onclick="ProviderBaseAdmin.ToggleDesignerItemArea($FORMBUILDERTEMPLATEITEMAREAID$, this);">
+        </span>
+
+        <span class="formbuilder-edit-designer-icon icon-long_arrow_up-w-20 floatright rotate180 borderleft" title="Move Down" onclick="ProviderBaseAdmin.FormBuilderTemplateItemAreaMoveDown($FORMBUILDERTEMPLATEITEMAREAID$);">
+        </span>
+
+        <span class="formbuilder-edit-designer-icon icon-long_arrow_up-w-20 floatright" title="Move Up" onclick="ProviderBaseAdmin.FormBuilderTemplateItemAreaMoveUp($FORMBUILDERTEMPLATEITEMAREAID$);">
+        </span>
+
+        <span class="formbuilder-edit-designer-icon icon-recyclebin-w-20 floatright borderright paddingright5" title="Delete" onclick="ProviderBaseAdmin.FormBuilderTemplateItemAreaDelete($FORMBUILDERTEMPLATEITEMAREAID$);">
+        </span>
+    </div>
+    <div class="formbuilder-edit-designer-item-area-main js-item-area-toggle" data-FormBuilderTemplateItemAreaID="$FORMBUILDERTEMPLATEITEMAREAID$">
+        <div class="formbuilder-edit-designer-item-area-drop js-item-area-drop-toggle" onclick="ProviderBaseAdmin.FormBuilderTemplateItemAreaCreate($FORMBUILDERTEMPLATEITEMID$, $FORMBUILDERTEMPLATEITEMAREAID$);">Area</div>
+        <div class="formbuilder-edit-field-item-area-drop js-item-area-field-drop-toggle" onclick="ProviderBaseAdmin.FormBuilderTemplateItemAreaFieldCreate($FORMBUILDERTEMPLATEITEMAREAID$, 0);">Field</div>
+        $DATA$
+    </div>
+</div>

@@ -1,0 +1,30 @@
+﻿<div class="formbuilder-edit-designer-item">
+    <div class="formbuilder-edit-designer-item-toolbar">
+        <span class="formbuilder-edit-designer-icon icon-edit-w-20" title="Edit" onclick="ProviderBaseAdmin.FormBuilderTemplateItemEdit($FORMBUILDERTEMPLATEITEMID$);"></span>
+        <span class="formbuilder-edit-designer-item-type">
+            ITEM
+        </span>
+        <span class="formbuilder-edit-designer-item-class">
+            class=&#34;$CLASS$&#34;
+        </span>
+        <span class="formbuilder-edit-designer-item-style">
+            style=&#34;$STYLE$&#34;
+        </span>
+
+        <span class="formbuilder-edit-designer-icon icon-short_arrow_right-w-20 js-item-display-icon floatright rotate90" title="Collapse" onclick="ProviderBaseAdmin.ToggleDesignerItem($FORMBUILDERTEMPLATEITEMID$, this);">
+        </span>
+
+        <span class="formbuilder-edit-designer-icon icon-long_arrow_up-w-20 floatright rotate180 borderleft" title="Move Down" onclick="ProviderBaseAdmin.FormBuilderTemplateItemMoveDown($FORMBUILDERTEMPLATEITEMID$);">
+        </span>
+
+        <span class="formbuilder-edit-designer-icon icon-long_arrow_up-w-20 floatright" title="Move Up" onclick="ProviderBaseAdmin.FormBuilderTemplateItemMoveUp($FORMBUILDERTEMPLATEITEMID$);">
+        </span>
+
+        <span class="formbuilder-edit-designer-icon icon-recyclebin-w-20 floatright borderright paddingright5" title="Delete" onclick="ProviderBaseAdmin.FormBuilderTemplateItemDelete($FORMBUILDERTEMPLATEITEMID$);">
+        </span>
+    </div>
+    <div class="formbuilder-edit-designer-item-main js-item-toggle" data-FormBuilderTemplateItemID="$FORMBUILDERTEMPLATEITEMID$">
+        <div class="formbuilder-edit-designer-item-area-drop js-item-area-drop-toggle" onclick="ProviderBaseAdmin.FormBuilderTemplateItemAreaCreate($FORMBUILDERTEMPLATEITEMID$, 0);">Area</div>
+        $DATA$
+    </div>
+</div>

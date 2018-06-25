@@ -1,0 +1,6894 @@
+﻿.icon-add-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 0;
+}
+.icon-add-f-30:hover {
+  cursor: pointer;
+}
+.icon-add_file-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -31px;
+}
+.icon-add_file-f-30:hover {
+  cursor: pointer;
+}
+.icon-adjustment_tuning-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -62px;
+}
+.icon-adjustment_tuning-f-30:hover {
+  cursor: pointer;
+}
+.icon-alarm_clock-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -93px;
+}
+.icon-alarm_clock-f-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_three_windows_horizontally-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -124px;
+}
+.icon-arrange_three_windows_horizontally-f-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_up_right-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -155px;
+}
+.icon-arrange_up_right-f-30:hover {
+  cursor: pointer;
+}
+.icon-avatar-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -186px;
+}
+.icon-avatar-f-30:hover {
+  cursor: pointer;
+}
+.icon-award-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -217px;
+}
+.icon-award-f-30:hover {
+  cursor: pointer;
+}
+.icon-back-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -248px;
+}
+.icon-back-f-30:hover {
+  cursor: pointer;
+}
+.icon-bell-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -279px;
+}
+.icon-bell-f-30:hover {
+  cursor: pointer;
+}
+.icon-bomb-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -310px;
+}
+.icon-bomb-f-30:hover {
+  cursor: pointer;
+}
+.icon-burn_fire_hot-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -341px;
+}
+.icon-burn_fire_hot-f-30:hover {
+  cursor: pointer;
+}
+.icon-calendar-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -372px;
+}
+.icon-calendar-f-30:hover {
+  cursor: pointer;
+}
+.icon-chart-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -403px;
+}
+.icon-chart-f-30:hover {
+  cursor: pointer;
+}
+.icon-chart_board-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -434px;
+}
+.icon-chart_board-f-30:hover {
+  cursor: pointer;
+}
+.icon-chart_up-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -465px;
+}
+.icon-chart_up-f-30:hover {
+  cursor: pointer;
+}
+.icon-clip-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -496px;
+}
+.icon-clip-f-30:hover {
+  cursor: pointer;
+}
+.icon-clock_time-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -527px;
+}
+.icon-clock_time-f-30:hover {
+  cursor: pointer;
+}
+.icon-close_folder-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -558px;
+}
+.icon-close_folder-f-30:hover {
+  cursor: pointer;
+}
+.icon-close_square_button-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -589px;
+}
+.icon-close_square_button-f-30:hover {
+  cursor: pointer;
+}
+.icon-database-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -620px;
+}
+.icon-database-f-30:hover {
+  cursor: pointer;
+}
+.icon-database_add-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -651px;
+}
+.icon-database_add-f-30:hover {
+  cursor: pointer;
+}
+.icon-database_delete-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -682px;
+}
+.icon-database_delete-f-30:hover {
+  cursor: pointer;
+}
+.icon-database_edit-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -713px;
+}
+.icon-database_edit-f-30:hover {
+  cursor: pointer;
+}
+.icon-database_lock-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -744px;
+}
+.icon-database_lock-f-30:hover {
+  cursor: pointer;
+}
+.icon-database_search-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -775px;
+}
+.icon-database_search-f-30:hover {
+  cursor: pointer;
+}
+.icon-delete_file-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -806px;
+}
+.icon-delete_file-f-30:hover {
+  cursor: pointer;
+}
+.icon-delete_round_button-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -837px;
+}
+.icon-delete_round_button-f-30:hover {
+  cursor: pointer;
+}
+.icon-dialogue-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -868px;
+}
+.icon-dialogue-f-30:hover {
+  cursor: pointer;
+}
+.icon-diamond_brilliant-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -899px;
+}
+.icon-diamond_brilliant-f-30:hover {
+  cursor: pointer;
+}
+.icon-download_from_the_cloud-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -930px;
+}
+.icon-download_from_the_cloud-f-30:hover {
+  cursor: pointer;
+}
+.icon-drag_and_drop-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -961px;
+}
+.icon-drag_and_drop-f-30:hover {
+  cursor: pointer;
+}
+.icon-duplicate_file-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -992px;
+}
+.icon-duplicate_file-f-30:hover {
+  cursor: pointer;
+}
+.icon-edit-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1023px;
+}
+.icon-edit-f-30:hover {
+  cursor: pointer;
+}
+.icon-edit_file-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1054px;
+}
+.icon-edit_file-f-30:hover {
+  cursor: pointer;
+}
+.icon-edit_note-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1085px;
+}
+.icon-edit_note-f-30:hover {
+  cursor: pointer;
+}
+.icon-exchange_swap-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1116px;
+}
+.icon-exchange_swap-f-30:hover {
+  cursor: pointer;
+}
+.icon-export_file-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1147px;
+}
+.icon-export_file-f-30:hover {
+  cursor: pointer;
+}
+.icon-file-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1178px;
+}
+.icon-file-f-30:hover {
+  cursor: pointer;
+}
+.icon-file_search-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1209px;
+}
+.icon-file_search-f-30:hover {
+  cursor: pointer;
+}
+.icon-filter_text_Z-A-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1240px;
+}
+.icon-filter_text_Z-A-f-30:hover {
+  cursor: pointer;
+}
+.icon-flag-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1271px;
+}
+.icon-flag-f-30:hover {
+  cursor: pointer;
+}
+.icon-folder-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1302px;
+}
+.icon-folder-f-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1333px;
+}
+.icon-full_screen-f-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen_square_button-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1364px;
+}
+.icon-full_screen_square_button-f-30:hover {
+  cursor: pointer;
+}
+.icon-globe-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1395px;
+}
+.icon-globe-f-30:hover {
+  cursor: pointer;
+}
+.icon-heart_liked-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1426px;
+}
+.icon-heart_liked-f-30:hover {
+  cursor: pointer;
+}
+.icon-home-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1457px;
+}
+.icon-home-f-30:hover {
+  cursor: pointer;
+}
+.icon-html_code-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1488px;
+}
+.icon-html_code-f-30:hover {
+  cursor: pointer;
+}
+.icon-image-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1519px;
+}
+.icon-image-f-30:hover {
+  cursor: pointer;
+}
+.icon-import_file-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1550px;
+}
+.icon-import_file-f-30:hover {
+  cursor: pointer;
+}
+.icon-key_password-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1581px;
+}
+.icon-key_password-f-30:hover {
+  cursor: pointer;
+}
+.icon-lamp_info-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1612px;
+}
+.icon-lamp_info-f-30:hover {
+  cursor: pointer;
+}
+.icon-laptop-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1643px;
+}
+.icon-laptop-f-30:hover {
+  cursor: pointer;
+}
+.icon-layers-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1674px;
+}
+.icon-layers-f-30:hover {
+  cursor: pointer;
+}
+.icon-like-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1705px;
+}
+.icon-like-f-30:hover {
+  cursor: pointer;
+}
+.icon-link-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1736px;
+}
+.icon-link-f-30:hover {
+  cursor: pointer;
+}
+.icon-long_arrow_up-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1767px;
+}
+.icon-long_arrow_up-f-30:hover {
+  cursor: pointer;
+}
+.icon-long_round_up_arrow-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1798px;
+}
+.icon-long_round_up_arrow-f-30:hover {
+  cursor: pointer;
+}
+.icon-long_square_down_arrow-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1829px;
+}
+.icon-long_square_down_arrow-f-30:hover {
+  cursor: pointer;
+}
+.icon-mail-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1860px;
+}
+.icon-mail-f-30:hover {
+  cursor: pointer;
+}
+.icon-map-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1891px;
+}
+.icon-map-f-30:hover {
+  cursor: pointer;
+}
+.icon-marker-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1922px;
+}
+.icon-marker-f-30:hover {
+  cursor: pointer;
+}
+.icon-medal-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1953px;
+}
+.icon-medal-f-30:hover {
+  cursor: pointer;
+}
+.icon-menu-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -1984px;
+}
+.icon-menu-f-30:hover {
+  cursor: pointer;
+}
+.icon-mobile-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2015px;
+}
+.icon-mobile-f-30:hover {
+  cursor: pointer;
+}
+.icon-monitor_desktop-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2046px;
+}
+.icon-monitor_desktop-f-30:hover {
+  cursor: pointer;
+}
+.icon-move_right-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2077px;
+}
+.icon-move_right-f-30:hover {
+  cursor: pointer;
+}
+.icon-navigation_compass-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2108px;
+}
+.icon-navigation_compass-f-30:hover {
+  cursor: pointer;
+}
+.icon-note-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2139px;
+}
+.icon-note-f-30:hover {
+  cursor: pointer;
+}
+.icon-notebook-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2170px;
+}
+.icon-notebook-f-30:hover {
+  cursor: pointer;
+}
+.icon-notepad-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2201px;
+}
+.icon-notepad-f-30:hover {
+  cursor: pointer;
+}
+.icon-ok_square_button-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2232px;
+}
+.icon-ok_square_button-f-30:hover {
+  cursor: pointer;
+}
+.icon-open_folder-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2263px;
+}
+.icon-open_folder-f-30:hover {
+  cursor: pointer;
+}
+.icon-personal_data-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2294px;
+}
+.icon-personal_data-f-30:hover {
+  cursor: pointer;
+}
+.icon-personal_information-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2325px;
+}
+.icon-personal_information-f-30:hover {
+  cursor: pointer;
+}
+.icon-photo-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2356px;
+}
+.icon-photo-f-30:hover {
+  cursor: pointer;
+}
+.icon-pie_chart-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2387px;
+}
+.icon-pie_chart-f-30:hover {
+  cursor: pointer;
+}
+.icon-place_the_bottom-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2418px;
+}
+.icon-place_the_bottom-f-30:hover {
+  cursor: pointer;
+}
+.icon-portfolio_briefcase-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2449px;
+}
+.icon-portfolio_briefcase-f-30:hover {
+  cursor: pointer;
+}
+.icon-print-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2480px;
+}
+.icon-print-f-30:hover {
+  cursor: pointer;
+}
+.icon-purse-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2511px;
+}
+.icon-purse-f-30:hover {
+  cursor: pointer;
+}
+.icon-pushpin-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2542px;
+}
+.icon-pushpin-f-30:hover {
+  cursor: pointer;
+}
+.icon-recyclebin-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2573px;
+}
+.icon-recyclebin-f-30:hover {
+  cursor: pointer;
+}
+.icon-reduce_window_size_square_button-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2604px;
+}
+.icon-reduce_window_size_square_button-f-30:hover {
+  cursor: pointer;
+}
+.icon-resize_less-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2635px;
+}
+.icon-resize_less-f-30:hover {
+  cursor: pointer;
+}
+.icon-restart-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2666px;
+}
+.icon-restart-f-30:hover {
+  cursor: pointer;
+}
+.icon-root_bubble_with_text-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2697px;
+}
+.icon-root_bubble_with_text-f-30:hover {
+  cursor: pointer;
+}
+.icon-save-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2728px;
+}
+.icon-save-f-30:hover {
+  cursor: pointer;
+}
+.icon-save_in_the_cloud-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2759px;
+}
+.icon-save_in_the_cloud-f-30:hover {
+  cursor: pointer;
+}
+.icon-search-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2790px;
+}
+.icon-search-f-30:hover {
+  cursor: pointer;
+}
+.icon-send_message-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2821px;
+}
+.icon-send_message-f-30:hover {
+  cursor: pointer;
+}
+.icon-settings-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2852px;
+}
+.icon-settings-f-30:hover {
+  cursor: pointer;
+}
+.icon-share-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2883px;
+}
+.icon-share-f-30:hover {
+  cursor: pointer;
+}
+.icon-shop-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2914px;
+}
+.icon-shop-f-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_bag-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2945px;
+}
+.icon-shopping_bag-f-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_cart-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -2976px;
+}
+.icon-shopping_cart-f-30:hover {
+  cursor: pointer;
+}
+.icon-short_arrow_right-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3007px;
+}
+.icon-short_arrow_right-f-30:hover {
+  cursor: pointer;
+}
+.icon-short_round_up_arrow-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3038px;
+}
+.icon-short_round_up_arrow-f-30:hover {
+  cursor: pointer;
+}
+.icon-short_square_up_arrow-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3069px;
+}
+.icon-short_square_up_arrow-f-30:hover {
+  cursor: pointer;
+}
+.icon-spanner-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3100px;
+}
+.icon-spanner-f-30:hover {
+  cursor: pointer;
+}
+.icon-speaker-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3131px;
+}
+.icon-speaker-f-30:hover {
+  cursor: pointer;
+}
+.icon-stretch_horizontally-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3162px;
+}
+.icon-stretch_horizontally-f-30:hover {
+  cursor: pointer;
+}
+.icon-tablet-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3193px;
+}
+.icon-tablet-f-30:hover {
+  cursor: pointer;
+}
+.icon-tag_label_close-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3224px;
+}
+.icon-tag_label_close-f-30:hover {
+  cursor: pointer;
+}
+.icon-target-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3255px;
+}
+.icon-target-f-30:hover {
+  cursor: pointer;
+}
+.icon-text_file-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3286px;
+}
+.icon-text_file-f-30:hover {
+  cursor: pointer;
+}
+.icon-text_left_align-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3317px;
+}
+.icon-text_left_align-f-30:hover {
+  cursor: pointer;
+}
+.icon-toolbar_up-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3348px;
+}
+.icon-toolbar_up-f-30:hover {
+  cursor: pointer;
+}
+.icon-unlock-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3379px;
+}
+.icon-unlock-f-30:hover {
+  cursor: pointer;
+}
+.icon-update-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3410px;
+}
+.icon-update-f-30:hover {
+  cursor: pointer;
+}
+.icon-upload_to_the_server-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3441px;
+}
+.icon-upload_to_the_server-f-30:hover {
+  cursor: pointer;
+}
+.icon-window-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3472px;
+}
+.icon-window-f-30:hover {
+  cursor: pointer;
+}
+.icon-window_form-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3503px;
+}
+.icon-window_form-f-30:hover {
+  cursor: pointer;
+}
+.icon-zoom_in-f-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: 0 -3534px;
+}
+.icon-zoom_in-f-30:hover {
+  cursor: pointer;
+}
+.icon-add-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px 0;
+}
+.icon-add-d-30:hover {
+  cursor: pointer;
+}
+.icon-add_file-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -31px;
+}
+.icon-add_file-d-30:hover {
+  cursor: pointer;
+}
+.icon-adjustment_tuning-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -62px;
+}
+.icon-adjustment_tuning-d-30:hover {
+  cursor: pointer;
+}
+.icon-alarm_clock-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -93px;
+}
+.icon-alarm_clock-d-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_three_windows_horizontally-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -124px;
+}
+.icon-arrange_three_windows_horizontally-d-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_up_right-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -155px;
+}
+.icon-arrange_up_right-d-30:hover {
+  cursor: pointer;
+}
+.icon-avatar-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -186px;
+}
+.icon-avatar-d-30:hover {
+  cursor: pointer;
+}
+.icon-award-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -217px;
+}
+.icon-award-d-30:hover {
+  cursor: pointer;
+}
+.icon-back-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -248px;
+}
+.icon-back-d-30:hover {
+  cursor: pointer;
+}
+.icon-bell-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -279px;
+}
+.icon-bell-d-30:hover {
+  cursor: pointer;
+}
+.icon-bomb-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -310px;
+}
+.icon-bomb-d-30:hover {
+  cursor: pointer;
+}
+.icon-burn_fire_hot-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -341px;
+}
+.icon-burn_fire_hot-d-30:hover {
+  cursor: pointer;
+}
+.icon-calendar-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -372px;
+}
+.icon-calendar-d-30:hover {
+  cursor: pointer;
+}
+.icon-chart-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -403px;
+}
+.icon-chart-d-30:hover {
+  cursor: pointer;
+}
+.icon-chart_board-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -434px;
+}
+.icon-chart_board-d-30:hover {
+  cursor: pointer;
+}
+.icon-chart_up-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -465px;
+}
+.icon-chart_up-d-30:hover {
+  cursor: pointer;
+}
+.icon-clip-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -496px;
+}
+.icon-clip-d-30:hover {
+  cursor: pointer;
+}
+.icon-clock_time-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -527px;
+}
+.icon-clock_time-d-30:hover {
+  cursor: pointer;
+}
+.icon-close_folder-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -558px;
+}
+.icon-close_folder-d-30:hover {
+  cursor: pointer;
+}
+.icon-close_square_button-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -589px;
+}
+.icon-close_square_button-d-30:hover {
+  cursor: pointer;
+}
+.icon-database-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -620px;
+}
+.icon-database-d-30:hover {
+  cursor: pointer;
+}
+.icon-database_add-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -651px;
+}
+.icon-database_add-d-30:hover {
+  cursor: pointer;
+}
+.icon-database_delete-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -682px;
+}
+.icon-database_delete-d-30:hover {
+  cursor: pointer;
+}
+.icon-database_edit-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -713px;
+}
+.icon-database_edit-d-30:hover {
+  cursor: pointer;
+}
+.icon-database_lock-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -744px;
+}
+.icon-database_lock-d-30:hover {
+  cursor: pointer;
+}
+.icon-database_search-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -775px;
+}
+.icon-database_search-d-30:hover {
+  cursor: pointer;
+}
+.icon-delete_file-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -806px;
+}
+.icon-delete_file-d-30:hover {
+  cursor: pointer;
+}
+.icon-delete_round_button-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -837px;
+}
+.icon-delete_round_button-d-30:hover {
+  cursor: pointer;
+}
+.icon-dialogue-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -868px;
+}
+.icon-dialogue-d-30:hover {
+  cursor: pointer;
+}
+.icon-diamond_brilliant-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -899px;
+}
+.icon-diamond_brilliant-d-30:hover {
+  cursor: pointer;
+}
+.icon-download_from_the_cloud-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -930px;
+}
+.icon-download_from_the_cloud-d-30:hover {
+  cursor: pointer;
+}
+.icon-drag_and_drop-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -961px;
+}
+.icon-drag_and_drop-d-30:hover {
+  cursor: pointer;
+}
+.icon-duplicate_file-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -992px;
+}
+.icon-duplicate_file-d-30:hover {
+  cursor: pointer;
+}
+.icon-edit-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1023px;
+}
+.icon-edit-d-30:hover {
+  cursor: pointer;
+}
+.icon-edit_file-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1054px;
+}
+.icon-edit_file-d-30:hover {
+  cursor: pointer;
+}
+.icon-edit_note-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1085px;
+}
+.icon-edit_note-d-30:hover {
+  cursor: pointer;
+}
+.icon-exchange_swap-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1116px;
+}
+.icon-exchange_swap-d-30:hover {
+  cursor: pointer;
+}
+.icon-export_file-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1147px;
+}
+.icon-export_file-d-30:hover {
+  cursor: pointer;
+}
+.icon-file-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1178px;
+}
+.icon-file-d-30:hover {
+  cursor: pointer;
+}
+.icon-file_search-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1209px;
+}
+.icon-file_search-d-30:hover {
+  cursor: pointer;
+}
+.icon-filter_text_Z-A-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1240px;
+}
+.icon-filter_text_Z-A-d-30:hover {
+  cursor: pointer;
+}
+.icon-flag-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1271px;
+}
+.icon-flag-d-30:hover {
+  cursor: pointer;
+}
+.icon-folder-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1302px;
+}
+.icon-folder-d-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1333px;
+}
+.icon-full_screen-d-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen_square_button-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1364px;
+}
+.icon-full_screen_square_button-d-30:hover {
+  cursor: pointer;
+}
+.icon-globe-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1395px;
+}
+.icon-globe-d-30:hover {
+  cursor: pointer;
+}
+.icon-heart_liked-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1426px;
+}
+.icon-heart_liked-d-30:hover {
+  cursor: pointer;
+}
+.icon-home-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1457px;
+}
+.icon-home-d-30:hover {
+  cursor: pointer;
+}
+.icon-html_code-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1488px;
+}
+.icon-html_code-d-30:hover {
+  cursor: pointer;
+}
+.icon-image-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1519px;
+}
+.icon-image-d-30:hover {
+  cursor: pointer;
+}
+.icon-import_file-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1550px;
+}
+.icon-import_file-d-30:hover {
+  cursor: pointer;
+}
+.icon-key_password-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1581px;
+}
+.icon-key_password-d-30:hover {
+  cursor: pointer;
+}
+.icon-lamp_info-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1612px;
+}
+.icon-lamp_info-d-30:hover {
+  cursor: pointer;
+}
+.icon-laptop-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1643px;
+}
+.icon-laptop-d-30:hover {
+  cursor: pointer;
+}
+.icon-layers-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1674px;
+}
+.icon-layers-d-30:hover {
+  cursor: pointer;
+}
+.icon-like-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1705px;
+}
+.icon-like-d-30:hover {
+  cursor: pointer;
+}
+.icon-link-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1736px;
+}
+.icon-link-d-30:hover {
+  cursor: pointer;
+}
+.icon-long_arrow_up-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1767px;
+}
+.icon-long_arrow_up-d-30:hover {
+  cursor: pointer;
+}
+.icon-long_round_up_arrow-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1798px;
+}
+.icon-long_round_up_arrow-d-30:hover {
+  cursor: pointer;
+}
+.icon-long_square_down_arrow-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1829px;
+}
+.icon-long_square_down_arrow-d-30:hover {
+  cursor: pointer;
+}
+.icon-mail-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1860px;
+}
+.icon-mail-d-30:hover {
+  cursor: pointer;
+}
+.icon-map-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1891px;
+}
+.icon-map-d-30:hover {
+  cursor: pointer;
+}
+.icon-marker-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1922px;
+}
+.icon-marker-d-30:hover {
+  cursor: pointer;
+}
+.icon-medal-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1953px;
+}
+.icon-medal-d-30:hover {
+  cursor: pointer;
+}
+.icon-menu-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -1984px;
+}
+.icon-menu-d-30:hover {
+  cursor: pointer;
+}
+.icon-mobile-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2015px;
+}
+.icon-mobile-d-30:hover {
+  cursor: pointer;
+}
+.icon-monitor_desktop-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2046px;
+}
+.icon-monitor_desktop-d-30:hover {
+  cursor: pointer;
+}
+.icon-move_right-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2077px;
+}
+.icon-move_right-d-30:hover {
+  cursor: pointer;
+}
+.icon-navigation_compass-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2108px;
+}
+.icon-navigation_compass-d-30:hover {
+  cursor: pointer;
+}
+.icon-note-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2139px;
+}
+.icon-note-d-30:hover {
+  cursor: pointer;
+}
+.icon-notebook-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2170px;
+}
+.icon-notebook-d-30:hover {
+  cursor: pointer;
+}
+.icon-notepad-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2201px;
+}
+.icon-notepad-d-30:hover {
+  cursor: pointer;
+}
+.icon-ok_square_button-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2232px;
+}
+.icon-ok_square_button-d-30:hover {
+  cursor: pointer;
+}
+.icon-open_folder-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2263px;
+}
+.icon-open_folder-d-30:hover {
+  cursor: pointer;
+}
+.icon-personal_data-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2294px;
+}
+.icon-personal_data-d-30:hover {
+  cursor: pointer;
+}
+.icon-personal_information-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2325px;
+}
+.icon-personal_information-d-30:hover {
+  cursor: pointer;
+}
+.icon-photo-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2356px;
+}
+.icon-photo-d-30:hover {
+  cursor: pointer;
+}
+.icon-pie_chart-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2387px;
+}
+.icon-pie_chart-d-30:hover {
+  cursor: pointer;
+}
+.icon-place_the_bottom-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2418px;
+}
+.icon-place_the_bottom-d-30:hover {
+  cursor: pointer;
+}
+.icon-portfolio_briefcase-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2449px;
+}
+.icon-portfolio_briefcase-d-30:hover {
+  cursor: pointer;
+}
+.icon-print-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2480px;
+}
+.icon-print-d-30:hover {
+  cursor: pointer;
+}
+.icon-purse-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2511px;
+}
+.icon-purse-d-30:hover {
+  cursor: pointer;
+}
+.icon-pushpin-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2542px;
+}
+.icon-pushpin-d-30:hover {
+  cursor: pointer;
+}
+.icon-recyclebin-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2573px;
+}
+.icon-recyclebin-d-30:hover {
+  cursor: pointer;
+}
+.icon-reduce_window_size_square_button-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2604px;
+}
+.icon-reduce_window_size_square_button-d-30:hover {
+  cursor: pointer;
+}
+.icon-resize_less-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2635px;
+}
+.icon-resize_less-d-30:hover {
+  cursor: pointer;
+}
+.icon-restart-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2666px;
+}
+.icon-restart-d-30:hover {
+  cursor: pointer;
+}
+.icon-root_bubble_with_text-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2697px;
+}
+.icon-root_bubble_with_text-d-30:hover {
+  cursor: pointer;
+}
+.icon-save-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2728px;
+}
+.icon-save-d-30:hover {
+  cursor: pointer;
+}
+.icon-save_in_the_cloud-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2759px;
+}
+.icon-save_in_the_cloud-d-30:hover {
+  cursor: pointer;
+}
+.icon-search-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2790px;
+}
+.icon-search-d-30:hover {
+  cursor: pointer;
+}
+.icon-send_message-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2821px;
+}
+.icon-send_message-d-30:hover {
+  cursor: pointer;
+}
+.icon-settings-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2852px;
+}
+.icon-settings-d-30:hover {
+  cursor: pointer;
+}
+.icon-share-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2883px;
+}
+.icon-share-d-30:hover {
+  cursor: pointer;
+}
+.icon-shop-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2914px;
+}
+.icon-shop-d-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_bag-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2945px;
+}
+.icon-shopping_bag-d-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_cart-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -2976px;
+}
+.icon-shopping_cart-d-30:hover {
+  cursor: pointer;
+}
+.icon-short_arrow_right-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3007px;
+}
+.icon-short_arrow_right-d-30:hover {
+  cursor: pointer;
+}
+.icon-short_round_up_arrow-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3038px;
+}
+.icon-short_round_up_arrow-d-30:hover {
+  cursor: pointer;
+}
+.icon-short_square_up_arrow-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3069px;
+}
+.icon-short_square_up_arrow-d-30:hover {
+  cursor: pointer;
+}
+.icon-spanner-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3100px;
+}
+.icon-spanner-d-30:hover {
+  cursor: pointer;
+}
+.icon-speaker-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3131px;
+}
+.icon-speaker-d-30:hover {
+  cursor: pointer;
+}
+.icon-stretch_horizontally-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3162px;
+}
+.icon-stretch_horizontally-d-30:hover {
+  cursor: pointer;
+}
+.icon-tablet-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3193px;
+}
+.icon-tablet-d-30:hover {
+  cursor: pointer;
+}
+.icon-tag_label_close-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3224px;
+}
+.icon-tag_label_close-d-30:hover {
+  cursor: pointer;
+}
+.icon-target-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3255px;
+}
+.icon-target-d-30:hover {
+  cursor: pointer;
+}
+.icon-text_file-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3286px;
+}
+.icon-text_file-d-30:hover {
+  cursor: pointer;
+}
+.icon-text_left_align-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3317px;
+}
+.icon-text_left_align-d-30:hover {
+  cursor: pointer;
+}
+.icon-toolbar_up-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3348px;
+}
+.icon-toolbar_up-d-30:hover {
+  cursor: pointer;
+}
+.icon-unlock-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3379px;
+}
+.icon-unlock-d-30:hover {
+  cursor: pointer;
+}
+.icon-update-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3410px;
+}
+.icon-update-d-30:hover {
+  cursor: pointer;
+}
+.icon-upload_to_the_server-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3441px;
+}
+.icon-upload_to_the_server-d-30:hover {
+  cursor: pointer;
+}
+.icon-window-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3472px;
+}
+.icon-window-d-30:hover {
+  cursor: pointer;
+}
+.icon-window_form-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3503px;
+}
+.icon-window_form-d-30:hover {
+  cursor: pointer;
+}
+.icon-zoom_in-d-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -31px -3534px;
+}
+.icon-zoom_in-d-30:hover {
+  cursor: pointer;
+}
+.icon-add-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px 0;
+}
+.icon-add-r-30:hover {
+  cursor: pointer;
+}
+.icon-add_file-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -31px;
+}
+.icon-add_file-r-30:hover {
+  cursor: pointer;
+}
+.icon-adjustment_tuning-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -62px;
+}
+.icon-adjustment_tuning-r-30:hover {
+  cursor: pointer;
+}
+.icon-alarm_clock-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -93px;
+}
+.icon-alarm_clock-r-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_three_windows_horizontally-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -124px;
+}
+.icon-arrange_three_windows_horizontally-r-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_up_right-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -155px;
+}
+.icon-arrange_up_right-r-30:hover {
+  cursor: pointer;
+}
+.icon-avatar-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -186px;
+}
+.icon-avatar-r-30:hover {
+  cursor: pointer;
+}
+.icon-award-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -217px;
+}
+.icon-award-r-30:hover {
+  cursor: pointer;
+}
+.icon-back-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -248px;
+}
+.icon-back-r-30:hover {
+  cursor: pointer;
+}
+.icon-bell-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -279px;
+}
+.icon-bell-r-30:hover {
+  cursor: pointer;
+}
+.icon-bomb-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -310px;
+}
+.icon-bomb-r-30:hover {
+  cursor: pointer;
+}
+.icon-burn_fire_hot-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -341px;
+}
+.icon-burn_fire_hot-r-30:hover {
+  cursor: pointer;
+}
+.icon-calendar-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -372px;
+}
+.icon-calendar-r-30:hover {
+  cursor: pointer;
+}
+.icon-chart-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -403px;
+}
+.icon-chart-r-30:hover {
+  cursor: pointer;
+}
+.icon-chart_board-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -434px;
+}
+.icon-chart_board-r-30:hover {
+  cursor: pointer;
+}
+.icon-chart_up-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -465px;
+}
+.icon-chart_up-r-30:hover {
+  cursor: pointer;
+}
+.icon-clip-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -496px;
+}
+.icon-clip-r-30:hover {
+  cursor: pointer;
+}
+.icon-clock_time-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -527px;
+}
+.icon-clock_time-r-30:hover {
+  cursor: pointer;
+}
+.icon-close_folder-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -558px;
+}
+.icon-close_folder-r-30:hover {
+  cursor: pointer;
+}
+.icon-close_square_button-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -589px;
+}
+.icon-close_square_button-r-30:hover {
+  cursor: pointer;
+}
+.icon-database-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -620px;
+}
+.icon-database-r-30:hover {
+  cursor: pointer;
+}
+.icon-database_add-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -651px;
+}
+.icon-database_add-r-30:hover {
+  cursor: pointer;
+}
+.icon-database_delete-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -682px;
+}
+.icon-database_delete-r-30:hover {
+  cursor: pointer;
+}
+.icon-database_edit-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -713px;
+}
+.icon-database_edit-r-30:hover {
+  cursor: pointer;
+}
+.icon-database_lock-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -744px;
+}
+.icon-database_lock-r-30:hover {
+  cursor: pointer;
+}
+.icon-database_search-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -775px;
+}
+.icon-database_search-r-30:hover {
+  cursor: pointer;
+}
+.icon-delete_file-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -806px;
+}
+.icon-delete_file-r-30:hover {
+  cursor: pointer;
+}
+.icon-delete_round_button-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -837px;
+}
+.icon-delete_round_button-r-30:hover {
+  cursor: pointer;
+}
+.icon-dialogue-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -868px;
+}
+.icon-dialogue-r-30:hover {
+  cursor: pointer;
+}
+.icon-diamond_brilliant-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -899px;
+}
+.icon-diamond_brilliant-r-30:hover {
+  cursor: pointer;
+}
+.icon-download_from_the_cloud-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -930px;
+}
+.icon-download_from_the_cloud-r-30:hover {
+  cursor: pointer;
+}
+.icon-drag_and_drop-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -961px;
+}
+.icon-drag_and_drop-r-30:hover {
+  cursor: pointer;
+}
+.icon-duplicate_file-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -992px;
+}
+.icon-duplicate_file-r-30:hover {
+  cursor: pointer;
+}
+.icon-edit-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1023px;
+}
+.icon-edit-r-30:hover {
+  cursor: pointer;
+}
+.icon-edit_file-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1054px;
+}
+.icon-edit_file-r-30:hover {
+  cursor: pointer;
+}
+.icon-edit_note-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1085px;
+}
+.icon-edit_note-r-30:hover {
+  cursor: pointer;
+}
+.icon-exchange_swap-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1116px;
+}
+.icon-exchange_swap-r-30:hover {
+  cursor: pointer;
+}
+.icon-export_file-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1147px;
+}
+.icon-export_file-r-30:hover {
+  cursor: pointer;
+}
+.icon-file-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1178px;
+}
+.icon-file-r-30:hover {
+  cursor: pointer;
+}
+.icon-file_search-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1209px;
+}
+.icon-file_search-r-30:hover {
+  cursor: pointer;
+}
+.icon-filter_text_Z-A-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1240px;
+}
+.icon-filter_text_Z-A-r-30:hover {
+  cursor: pointer;
+}
+.icon-flag-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1271px;
+}
+.icon-flag-r-30:hover {
+  cursor: pointer;
+}
+.icon-folder-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1302px;
+}
+.icon-folder-r-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1333px;
+}
+.icon-full_screen-r-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen_square_button-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1364px;
+}
+.icon-full_screen_square_button-r-30:hover {
+  cursor: pointer;
+}
+.icon-globe-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1395px;
+}
+.icon-globe-r-30:hover {
+  cursor: pointer;
+}
+.icon-heart_liked-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1426px;
+}
+.icon-heart_liked-r-30:hover {
+  cursor: pointer;
+}
+.icon-home-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1457px;
+}
+.icon-home-r-30:hover {
+  cursor: pointer;
+}
+.icon-html_code-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1488px;
+}
+.icon-html_code-r-30:hover {
+  cursor: pointer;
+}
+.icon-image-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1519px;
+}
+.icon-image-r-30:hover {
+  cursor: pointer;
+}
+.icon-import_file-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1550px;
+}
+.icon-import_file-r-30:hover {
+  cursor: pointer;
+}
+.icon-key_password-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1581px;
+}
+.icon-key_password-r-30:hover {
+  cursor: pointer;
+}
+.icon-lamp_info-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1612px;
+}
+.icon-lamp_info-r-30:hover {
+  cursor: pointer;
+}
+.icon-laptop-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1643px;
+}
+.icon-laptop-r-30:hover {
+  cursor: pointer;
+}
+.icon-layers-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1674px;
+}
+.icon-layers-r-30:hover {
+  cursor: pointer;
+}
+.icon-like-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1705px;
+}
+.icon-like-r-30:hover {
+  cursor: pointer;
+}
+.icon-link-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1736px;
+}
+.icon-link-r-30:hover {
+  cursor: pointer;
+}
+.icon-long_arrow_up-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1767px;
+}
+.icon-long_arrow_up-r-30:hover {
+  cursor: pointer;
+}
+.icon-long_round_up_arrow-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1798px;
+}
+.icon-long_round_up_arrow-r-30:hover {
+  cursor: pointer;
+}
+.icon-long_square_down_arrow-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1829px;
+}
+.icon-long_square_down_arrow-r-30:hover {
+  cursor: pointer;
+}
+.icon-mail-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1860px;
+}
+.icon-mail-r-30:hover {
+  cursor: pointer;
+}
+.icon-map-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1891px;
+}
+.icon-map-r-30:hover {
+  cursor: pointer;
+}
+.icon-marker-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1922px;
+}
+.icon-marker-r-30:hover {
+  cursor: pointer;
+}
+.icon-medal-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1953px;
+}
+.icon-medal-r-30:hover {
+  cursor: pointer;
+}
+.icon-menu-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -1984px;
+}
+.icon-menu-r-30:hover {
+  cursor: pointer;
+}
+.icon-mobile-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2015px;
+}
+.icon-mobile-r-30:hover {
+  cursor: pointer;
+}
+.icon-monitor_desktop-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2046px;
+}
+.icon-monitor_desktop-r-30:hover {
+  cursor: pointer;
+}
+.icon-move_right-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2077px;
+}
+.icon-move_right-r-30:hover {
+  cursor: pointer;
+}
+.icon-navigation_compass-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2108px;
+}
+.icon-navigation_compass-r-30:hover {
+  cursor: pointer;
+}
+.icon-note-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2139px;
+}
+.icon-note-r-30:hover {
+  cursor: pointer;
+}
+.icon-notebook-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2170px;
+}
+.icon-notebook-r-30:hover {
+  cursor: pointer;
+}
+.icon-notepad-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2201px;
+}
+.icon-notepad-r-30:hover {
+  cursor: pointer;
+}
+.icon-ok_square_button-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2232px;
+}
+.icon-ok_square_button-r-30:hover {
+  cursor: pointer;
+}
+.icon-open_folder-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2263px;
+}
+.icon-open_folder-r-30:hover {
+  cursor: pointer;
+}
+.icon-personal_data-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2294px;
+}
+.icon-personal_data-r-30:hover {
+  cursor: pointer;
+}
+.icon-personal_information-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2325px;
+}
+.icon-personal_information-r-30:hover {
+  cursor: pointer;
+}
+.icon-photo-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2356px;
+}
+.icon-photo-r-30:hover {
+  cursor: pointer;
+}
+.icon-pie_chart-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2387px;
+}
+.icon-pie_chart-r-30:hover {
+  cursor: pointer;
+}
+.icon-place_the_bottom-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2418px;
+}
+.icon-place_the_bottom-r-30:hover {
+  cursor: pointer;
+}
+.icon-portfolio_briefcase-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2449px;
+}
+.icon-portfolio_briefcase-r-30:hover {
+  cursor: pointer;
+}
+.icon-print-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2480px;
+}
+.icon-print-r-30:hover {
+  cursor: pointer;
+}
+.icon-purse-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2511px;
+}
+.icon-purse-r-30:hover {
+  cursor: pointer;
+}
+.icon-pushpin-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2542px;
+}
+.icon-pushpin-r-30:hover {
+  cursor: pointer;
+}
+.icon-recyclebin-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2573px;
+}
+.icon-recyclebin-r-30:hover {
+  cursor: pointer;
+}
+.icon-reduce_window_size_square_button-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2604px;
+}
+.icon-reduce_window_size_square_button-r-30:hover {
+  cursor: pointer;
+}
+.icon-resize_less-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2635px;
+}
+.icon-resize_less-r-30:hover {
+  cursor: pointer;
+}
+.icon-restart-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2666px;
+}
+.icon-restart-r-30:hover {
+  cursor: pointer;
+}
+.icon-root_bubble_with_text-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2697px;
+}
+.icon-root_bubble_with_text-r-30:hover {
+  cursor: pointer;
+}
+.icon-save-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2728px;
+}
+.icon-save-r-30:hover {
+  cursor: pointer;
+}
+.icon-save_in_the_cloud-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2759px;
+}
+.icon-save_in_the_cloud-r-30:hover {
+  cursor: pointer;
+}
+.icon-search-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2790px;
+}
+.icon-search-r-30:hover {
+  cursor: pointer;
+}
+.icon-send_message-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2821px;
+}
+.icon-send_message-r-30:hover {
+  cursor: pointer;
+}
+.icon-settings-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2852px;
+}
+.icon-settings-r-30:hover {
+  cursor: pointer;
+}
+.icon-share-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2883px;
+}
+.icon-share-r-30:hover {
+  cursor: pointer;
+}
+.icon-shop-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2914px;
+}
+.icon-shop-r-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_bag-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2945px;
+}
+.icon-shopping_bag-r-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_cart-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -2976px;
+}
+.icon-shopping_cart-r-30:hover {
+  cursor: pointer;
+}
+.icon-short_arrow_right-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3007px;
+}
+.icon-short_arrow_right-r-30:hover {
+  cursor: pointer;
+}
+.icon-short_round_up_arrow-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3038px;
+}
+.icon-short_round_up_arrow-r-30:hover {
+  cursor: pointer;
+}
+.icon-short_square_up_arrow-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3069px;
+}
+.icon-short_square_up_arrow-r-30:hover {
+  cursor: pointer;
+}
+.icon-spanner-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3100px;
+}
+.icon-spanner-r-30:hover {
+  cursor: pointer;
+}
+.icon-speaker-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3131px;
+}
+.icon-speaker-r-30:hover {
+  cursor: pointer;
+}
+.icon-stretch_horizontally-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3162px;
+}
+.icon-stretch_horizontally-r-30:hover {
+  cursor: pointer;
+}
+.icon-tablet-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3193px;
+}
+.icon-tablet-r-30:hover {
+  cursor: pointer;
+}
+.icon-tag_label_close-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3224px;
+}
+.icon-tag_label_close-r-30:hover {
+  cursor: pointer;
+}
+.icon-target-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3255px;
+}
+.icon-target-r-30:hover {
+  cursor: pointer;
+}
+.icon-text_file-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3286px;
+}
+.icon-text_file-r-30:hover {
+  cursor: pointer;
+}
+.icon-text_left_align-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3317px;
+}
+.icon-text_left_align-r-30:hover {
+  cursor: pointer;
+}
+.icon-toolbar_up-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3348px;
+}
+.icon-toolbar_up-r-30:hover {
+  cursor: pointer;
+}
+.icon-unlock-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3379px;
+}
+.icon-unlock-r-30:hover {
+  cursor: pointer;
+}
+.icon-update-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3410px;
+}
+.icon-update-r-30:hover {
+  cursor: pointer;
+}
+.icon-upload_to_the_server-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3441px;
+}
+.icon-upload_to_the_server-r-30:hover {
+  cursor: pointer;
+}
+.icon-window-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3472px;
+}
+.icon-window-r-30:hover {
+  cursor: pointer;
+}
+.icon-window_form-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3503px;
+}
+.icon-window_form-r-30:hover {
+  cursor: pointer;
+}
+.icon-zoom_in-r-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -62px -3534px;
+}
+.icon-zoom_in-r-30:hover {
+  cursor: pointer;
+}
+.icon-add-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px 0;
+}
+.icon-add-g-30:hover {
+  cursor: pointer;
+}
+.icon-add_file-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -31px;
+}
+.icon-add_file-g-30:hover {
+  cursor: pointer;
+}
+.icon-adjustment_tuning-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -62px;
+}
+.icon-adjustment_tuning-g-30:hover {
+  cursor: pointer;
+}
+.icon-alarm_clock-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -93px;
+}
+.icon-alarm_clock-g-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_three_windows_horizontally-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -124px;
+}
+.icon-arrange_three_windows_horizontally-g-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_up_right-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -155px;
+}
+.icon-arrange_up_right-g-30:hover {
+  cursor: pointer;
+}
+.icon-avatar-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -186px;
+}
+.icon-avatar-g-30:hover {
+  cursor: pointer;
+}
+.icon-award-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -217px;
+}
+.icon-award-g-30:hover {
+  cursor: pointer;
+}
+.icon-back-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -248px;
+}
+.icon-back-g-30:hover {
+  cursor: pointer;
+}
+.icon-bell-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -279px;
+}
+.icon-bell-g-30:hover {
+  cursor: pointer;
+}
+.icon-bomb-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -310px;
+}
+.icon-bomb-g-30:hover {
+  cursor: pointer;
+}
+.icon-burn_fire_hot-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -341px;
+}
+.icon-burn_fire_hot-g-30:hover {
+  cursor: pointer;
+}
+.icon-calendar-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -372px;
+}
+.icon-calendar-g-30:hover {
+  cursor: pointer;
+}
+.icon-chart-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -403px;
+}
+.icon-chart-g-30:hover {
+  cursor: pointer;
+}
+.icon-chart_board-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -434px;
+}
+.icon-chart_board-g-30:hover {
+  cursor: pointer;
+}
+.icon-chart_up-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -465px;
+}
+.icon-chart_up-g-30:hover {
+  cursor: pointer;
+}
+.icon-clip-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -496px;
+}
+.icon-clip-g-30:hover {
+  cursor: pointer;
+}
+.icon-clock_time-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -527px;
+}
+.icon-clock_time-g-30:hover {
+  cursor: pointer;
+}
+.icon-close_folder-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -558px;
+}
+.icon-close_folder-g-30:hover {
+  cursor: pointer;
+}
+.icon-close_square_button-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -589px;
+}
+.icon-close_square_button-g-30:hover {
+  cursor: pointer;
+}
+.icon-database-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -620px;
+}
+.icon-database-g-30:hover {
+  cursor: pointer;
+}
+.icon-database_add-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -651px;
+}
+.icon-database_add-g-30:hover {
+  cursor: pointer;
+}
+.icon-database_delete-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -682px;
+}
+.icon-database_delete-g-30:hover {
+  cursor: pointer;
+}
+.icon-database_edit-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -713px;
+}
+.icon-database_edit-g-30:hover {
+  cursor: pointer;
+}
+.icon-database_lock-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -744px;
+}
+.icon-database_lock-g-30:hover {
+  cursor: pointer;
+}
+.icon-database_search-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -775px;
+}
+.icon-database_search-g-30:hover {
+  cursor: pointer;
+}
+.icon-delete_file-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -806px;
+}
+.icon-delete_file-g-30:hover {
+  cursor: pointer;
+}
+.icon-delete_round_button-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -837px;
+}
+.icon-delete_round_button-g-30:hover {
+  cursor: pointer;
+}
+.icon-dialogue-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -868px;
+}
+.icon-dialogue-g-30:hover {
+  cursor: pointer;
+}
+.icon-diamond_brilliant-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -899px;
+}
+.icon-diamond_brilliant-g-30:hover {
+  cursor: pointer;
+}
+.icon-download_from_the_cloud-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -930px;
+}
+.icon-download_from_the_cloud-g-30:hover {
+  cursor: pointer;
+}
+.icon-drag_and_drop-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -961px;
+}
+.icon-drag_and_drop-g-30:hover {
+  cursor: pointer;
+}
+.icon-duplicate_file-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -992px;
+}
+.icon-duplicate_file-g-30:hover {
+  cursor: pointer;
+}
+.icon-edit-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1023px;
+}
+.icon-edit-g-30:hover {
+  cursor: pointer;
+}
+.icon-edit_file-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1054px;
+}
+.icon-edit_file-g-30:hover {
+  cursor: pointer;
+}
+.icon-edit_note-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1085px;
+}
+.icon-edit_note-g-30:hover {
+  cursor: pointer;
+}
+.icon-exchange_swap-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1116px;
+}
+.icon-exchange_swap-g-30:hover {
+  cursor: pointer;
+}
+.icon-export_file-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1147px;
+}
+.icon-export_file-g-30:hover {
+  cursor: pointer;
+}
+.icon-file-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1178px;
+}
+.icon-file-g-30:hover {
+  cursor: pointer;
+}
+.icon-file_search-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1209px;
+}
+.icon-file_search-g-30:hover {
+  cursor: pointer;
+}
+.icon-filter_text_Z-A-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1240px;
+}
+.icon-filter_text_Z-A-g-30:hover {
+  cursor: pointer;
+}
+.icon-flag-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1271px;
+}
+.icon-flag-g-30:hover {
+  cursor: pointer;
+}
+.icon-folder-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1302px;
+}
+.icon-folder-g-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1333px;
+}
+.icon-full_screen-g-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen_square_button-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1364px;
+}
+.icon-full_screen_square_button-g-30:hover {
+  cursor: pointer;
+}
+.icon-globe-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1395px;
+}
+.icon-globe-g-30:hover {
+  cursor: pointer;
+}
+.icon-heart_liked-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1426px;
+}
+.icon-heart_liked-g-30:hover {
+  cursor: pointer;
+}
+.icon-home-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1457px;
+}
+.icon-home-g-30:hover {
+  cursor: pointer;
+}
+.icon-html_code-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1488px;
+}
+.icon-html_code-g-30:hover {
+  cursor: pointer;
+}
+.icon-image-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1519px;
+}
+.icon-image-g-30:hover {
+  cursor: pointer;
+}
+.icon-import_file-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1550px;
+}
+.icon-import_file-g-30:hover {
+  cursor: pointer;
+}
+.icon-key_password-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1581px;
+}
+.icon-key_password-g-30:hover {
+  cursor: pointer;
+}
+.icon-lamp_info-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1612px;
+}
+.icon-lamp_info-g-30:hover {
+  cursor: pointer;
+}
+.icon-laptop-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1643px;
+}
+.icon-laptop-g-30:hover {
+  cursor: pointer;
+}
+.icon-layers-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1674px;
+}
+.icon-layers-g-30:hover {
+  cursor: pointer;
+}
+.icon-like-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1705px;
+}
+.icon-like-g-30:hover {
+  cursor: pointer;
+}
+.icon-link-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1736px;
+}
+.icon-link-g-30:hover {
+  cursor: pointer;
+}
+.icon-long_arrow_up-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1767px;
+}
+.icon-long_arrow_up-g-30:hover {
+  cursor: pointer;
+}
+.icon-long_round_up_arrow-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1798px;
+}
+.icon-long_round_up_arrow-g-30:hover {
+  cursor: pointer;
+}
+.icon-long_square_down_arrow-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1829px;
+}
+.icon-long_square_down_arrow-g-30:hover {
+  cursor: pointer;
+}
+.icon-mail-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1860px;
+}
+.icon-mail-g-30:hover {
+  cursor: pointer;
+}
+.icon-map-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1891px;
+}
+.icon-map-g-30:hover {
+  cursor: pointer;
+}
+.icon-marker-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1922px;
+}
+.icon-marker-g-30:hover {
+  cursor: pointer;
+}
+.icon-medal-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1953px;
+}
+.icon-medal-g-30:hover {
+  cursor: pointer;
+}
+.icon-menu-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -1984px;
+}
+.icon-menu-g-30:hover {
+  cursor: pointer;
+}
+.icon-mobile-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2015px;
+}
+.icon-mobile-g-30:hover {
+  cursor: pointer;
+}
+.icon-monitor_desktop-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2046px;
+}
+.icon-monitor_desktop-g-30:hover {
+  cursor: pointer;
+}
+.icon-move_right-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2077px;
+}
+.icon-move_right-g-30:hover {
+  cursor: pointer;
+}
+.icon-navigation_compass-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2108px;
+}
+.icon-navigation_compass-g-30:hover {
+  cursor: pointer;
+}
+.icon-note-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2139px;
+}
+.icon-note-g-30:hover {
+  cursor: pointer;
+}
+.icon-notebook-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2170px;
+}
+.icon-notebook-g-30:hover {
+  cursor: pointer;
+}
+.icon-notepad-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2201px;
+}
+.icon-notepad-g-30:hover {
+  cursor: pointer;
+}
+.icon-ok_square_button-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2232px;
+}
+.icon-ok_square_button-g-30:hover {
+  cursor: pointer;
+}
+.icon-open_folder-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2263px;
+}
+.icon-open_folder-g-30:hover {
+  cursor: pointer;
+}
+.icon-personal_data-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2294px;
+}
+.icon-personal_data-g-30:hover {
+  cursor: pointer;
+}
+.icon-personal_information-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2325px;
+}
+.icon-personal_information-g-30:hover {
+  cursor: pointer;
+}
+.icon-photo-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2356px;
+}
+.icon-photo-g-30:hover {
+  cursor: pointer;
+}
+.icon-pie_chart-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2387px;
+}
+.icon-pie_chart-g-30:hover {
+  cursor: pointer;
+}
+.icon-place_the_bottom-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2418px;
+}
+.icon-place_the_bottom-g-30:hover {
+  cursor: pointer;
+}
+.icon-portfolio_briefcase-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2449px;
+}
+.icon-portfolio_briefcase-g-30:hover {
+  cursor: pointer;
+}
+.icon-print-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2480px;
+}
+.icon-print-g-30:hover {
+  cursor: pointer;
+}
+.icon-purse-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2511px;
+}
+.icon-purse-g-30:hover {
+  cursor: pointer;
+}
+.icon-pushpin-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2542px;
+}
+.icon-pushpin-g-30:hover {
+  cursor: pointer;
+}
+.icon-recyclebin-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2573px;
+}
+.icon-recyclebin-g-30:hover {
+  cursor: pointer;
+}
+.icon-reduce_window_size_square_button-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2604px;
+}
+.icon-reduce_window_size_square_button-g-30:hover {
+  cursor: pointer;
+}
+.icon-resize_less-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2635px;
+}
+.icon-resize_less-g-30:hover {
+  cursor: pointer;
+}
+.icon-restart-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2666px;
+}
+.icon-restart-g-30:hover {
+  cursor: pointer;
+}
+.icon-root_bubble_with_text-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2697px;
+}
+.icon-root_bubble_with_text-g-30:hover {
+  cursor: pointer;
+}
+.icon-save-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2728px;
+}
+.icon-save-g-30:hover {
+  cursor: pointer;
+}
+.icon-save_in_the_cloud-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2759px;
+}
+.icon-save_in_the_cloud-g-30:hover {
+  cursor: pointer;
+}
+.icon-search-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2790px;
+}
+.icon-search-g-30:hover {
+  cursor: pointer;
+}
+.icon-send_message-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2821px;
+}
+.icon-send_message-g-30:hover {
+  cursor: pointer;
+}
+.icon-settings-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2852px;
+}
+.icon-settings-g-30:hover {
+  cursor: pointer;
+}
+.icon-share-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2883px;
+}
+.icon-share-g-30:hover {
+  cursor: pointer;
+}
+.icon-shop-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2914px;
+}
+.icon-shop-g-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_bag-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2945px;
+}
+.icon-shopping_bag-g-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_cart-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -2976px;
+}
+.icon-shopping_cart-g-30:hover {
+  cursor: pointer;
+}
+.icon-short_arrow_right-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3007px;
+}
+.icon-short_arrow_right-g-30:hover {
+  cursor: pointer;
+}
+.icon-short_round_up_arrow-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3038px;
+}
+.icon-short_round_up_arrow-g-30:hover {
+  cursor: pointer;
+}
+.icon-short_square_up_arrow-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3069px;
+}
+.icon-short_square_up_arrow-g-30:hover {
+  cursor: pointer;
+}
+.icon-spanner-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3100px;
+}
+.icon-spanner-g-30:hover {
+  cursor: pointer;
+}
+.icon-speaker-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3131px;
+}
+.icon-speaker-g-30:hover {
+  cursor: pointer;
+}
+.icon-stretch_horizontally-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3162px;
+}
+.icon-stretch_horizontally-g-30:hover {
+  cursor: pointer;
+}
+.icon-tablet-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3193px;
+}
+.icon-tablet-g-30:hover {
+  cursor: pointer;
+}
+.icon-tag_label_close-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3224px;
+}
+.icon-tag_label_close-g-30:hover {
+  cursor: pointer;
+}
+.icon-target-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3255px;
+}
+.icon-target-g-30:hover {
+  cursor: pointer;
+}
+.icon-text_file-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3286px;
+}
+.icon-text_file-g-30:hover {
+  cursor: pointer;
+}
+.icon-text_left_align-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3317px;
+}
+.icon-text_left_align-g-30:hover {
+  cursor: pointer;
+}
+.icon-toolbar_up-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3348px;
+}
+.icon-toolbar_up-g-30:hover {
+  cursor: pointer;
+}
+.icon-unlock-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3379px;
+}
+.icon-unlock-g-30:hover {
+  cursor: pointer;
+}
+.icon-update-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3410px;
+}
+.icon-update-g-30:hover {
+  cursor: pointer;
+}
+.icon-upload_to_the_server-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3441px;
+}
+.icon-upload_to_the_server-g-30:hover {
+  cursor: pointer;
+}
+.icon-window-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3472px;
+}
+.icon-window-g-30:hover {
+  cursor: pointer;
+}
+.icon-window_form-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3503px;
+}
+.icon-window_form-g-30:hover {
+  cursor: pointer;
+}
+.icon-zoom_in-g-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -93px -3534px;
+}
+.icon-zoom_in-g-30:hover {
+  cursor: pointer;
+}
+.icon-add-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px 0;
+}
+.icon-add-b-30:hover {
+  cursor: pointer;
+}
+.icon-add_file-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -31px;
+}
+.icon-add_file-b-30:hover {
+  cursor: pointer;
+}
+.icon-adjustment_tuning-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -62px;
+}
+.icon-adjustment_tuning-b-30:hover {
+  cursor: pointer;
+}
+.icon-alarm_clock-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -93px;
+}
+.icon-alarm_clock-b-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_three_windows_horizontally-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -124px;
+}
+.icon-arrange_three_windows_horizontally-b-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_up_right-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -155px;
+}
+.icon-arrange_up_right-b-30:hover {
+  cursor: pointer;
+}
+.icon-avatar-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -186px;
+}
+.icon-avatar-b-30:hover {
+  cursor: pointer;
+}
+.icon-award-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -217px;
+}
+.icon-award-b-30:hover {
+  cursor: pointer;
+}
+.icon-back-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -248px;
+}
+.icon-back-b-30:hover {
+  cursor: pointer;
+}
+.icon-bell-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -279px;
+}
+.icon-bell-b-30:hover {
+  cursor: pointer;
+}
+.icon-bomb-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -310px;
+}
+.icon-bomb-b-30:hover {
+  cursor: pointer;
+}
+.icon-burn_fire_hot-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -341px;
+}
+.icon-burn_fire_hot-b-30:hover {
+  cursor: pointer;
+}
+.icon-calendar-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -372px;
+}
+.icon-calendar-b-30:hover {
+  cursor: pointer;
+}
+.icon-chart-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -403px;
+}
+.icon-chart-b-30:hover {
+  cursor: pointer;
+}
+.icon-chart_board-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -434px;
+}
+.icon-chart_board-b-30:hover {
+  cursor: pointer;
+}
+.icon-chart_up-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -465px;
+}
+.icon-chart_up-b-30:hover {
+  cursor: pointer;
+}
+.icon-clip-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -496px;
+}
+.icon-clip-b-30:hover {
+  cursor: pointer;
+}
+.icon-clock_time-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -527px;
+}
+.icon-clock_time-b-30:hover {
+  cursor: pointer;
+}
+.icon-close_folder-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -558px;
+}
+.icon-close_folder-b-30:hover {
+  cursor: pointer;
+}
+.icon-close_square_button-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -589px;
+}
+.icon-close_square_button-b-30:hover {
+  cursor: pointer;
+}
+.icon-database-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -620px;
+}
+.icon-database-b-30:hover {
+  cursor: pointer;
+}
+.icon-database_add-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -651px;
+}
+.icon-database_add-b-30:hover {
+  cursor: pointer;
+}
+.icon-database_delete-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -682px;
+}
+.icon-database_delete-b-30:hover {
+  cursor: pointer;
+}
+.icon-database_edit-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -713px;
+}
+.icon-database_edit-b-30:hover {
+  cursor: pointer;
+}
+.icon-database_lock-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -744px;
+}
+.icon-database_lock-b-30:hover {
+  cursor: pointer;
+}
+.icon-database_search-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -775px;
+}
+.icon-database_search-b-30:hover {
+  cursor: pointer;
+}
+.icon-delete_file-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -806px;
+}
+.icon-delete_file-b-30:hover {
+  cursor: pointer;
+}
+.icon-delete_round_button-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -837px;
+}
+.icon-delete_round_button-b-30:hover {
+  cursor: pointer;
+}
+.icon-dialogue-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -868px;
+}
+.icon-dialogue-b-30:hover {
+  cursor: pointer;
+}
+.icon-diamond_brilliant-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -899px;
+}
+.icon-diamond_brilliant-b-30:hover {
+  cursor: pointer;
+}
+.icon-download_from_the_cloud-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -930px;
+}
+.icon-download_from_the_cloud-b-30:hover {
+  cursor: pointer;
+}
+.icon-drag_and_drop-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -961px;
+}
+.icon-drag_and_drop-b-30:hover {
+  cursor: pointer;
+}
+.icon-duplicate_file-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -992px;
+}
+.icon-duplicate_file-b-30:hover {
+  cursor: pointer;
+}
+.icon-edit-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1023px;
+}
+.icon-edit-b-30:hover {
+  cursor: pointer;
+}
+.icon-edit_file-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1054px;
+}
+.icon-edit_file-b-30:hover {
+  cursor: pointer;
+}
+.icon-edit_note-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1085px;
+}
+.icon-edit_note-b-30:hover {
+  cursor: pointer;
+}
+.icon-exchange_swap-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1116px;
+}
+.icon-exchange_swap-b-30:hover {
+  cursor: pointer;
+}
+.icon-export_file-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1147px;
+}
+.icon-export_file-b-30:hover {
+  cursor: pointer;
+}
+.icon-file-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1178px;
+}
+.icon-file-b-30:hover {
+  cursor: pointer;
+}
+.icon-file_search-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1209px;
+}
+.icon-file_search-b-30:hover {
+  cursor: pointer;
+}
+.icon-filter_text_Z-A-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1240px;
+}
+.icon-filter_text_Z-A-b-30:hover {
+  cursor: pointer;
+}
+.icon-flag-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1271px;
+}
+.icon-flag-b-30:hover {
+  cursor: pointer;
+}
+.icon-folder-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1302px;
+}
+.icon-folder-b-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1333px;
+}
+.icon-full_screen-b-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen_square_button-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1364px;
+}
+.icon-full_screen_square_button-b-30:hover {
+  cursor: pointer;
+}
+.icon-globe-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1395px;
+}
+.icon-globe-b-30:hover {
+  cursor: pointer;
+}
+.icon-heart_liked-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1426px;
+}
+.icon-heart_liked-b-30:hover {
+  cursor: pointer;
+}
+.icon-home-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1457px;
+}
+.icon-home-b-30:hover {
+  cursor: pointer;
+}
+.icon-html_code-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1488px;
+}
+.icon-html_code-b-30:hover {
+  cursor: pointer;
+}
+.icon-image-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1519px;
+}
+.icon-image-b-30:hover {
+  cursor: pointer;
+}
+.icon-import_file-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1550px;
+}
+.icon-import_file-b-30:hover {
+  cursor: pointer;
+}
+.icon-key_password-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1581px;
+}
+.icon-key_password-b-30:hover {
+  cursor: pointer;
+}
+.icon-lamp_info-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1612px;
+}
+.icon-lamp_info-b-30:hover {
+  cursor: pointer;
+}
+.icon-laptop-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1643px;
+}
+.icon-laptop-b-30:hover {
+  cursor: pointer;
+}
+.icon-layers-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1674px;
+}
+.icon-layers-b-30:hover {
+  cursor: pointer;
+}
+.icon-like-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1705px;
+}
+.icon-like-b-30:hover {
+  cursor: pointer;
+}
+.icon-link-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1736px;
+}
+.icon-link-b-30:hover {
+  cursor: pointer;
+}
+.icon-long_arrow_up-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1767px;
+}
+.icon-long_arrow_up-b-30:hover {
+  cursor: pointer;
+}
+.icon-long_round_up_arrow-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1798px;
+}
+.icon-long_round_up_arrow-b-30:hover {
+  cursor: pointer;
+}
+.icon-long_square_down_arrow-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1829px;
+}
+.icon-long_square_down_arrow-b-30:hover {
+  cursor: pointer;
+}
+.icon-mail-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1860px;
+}
+.icon-mail-b-30:hover {
+  cursor: pointer;
+}
+.icon-map-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1891px;
+}
+.icon-map-b-30:hover {
+  cursor: pointer;
+}
+.icon-marker-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1922px;
+}
+.icon-marker-b-30:hover {
+  cursor: pointer;
+}
+.icon-medal-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1953px;
+}
+.icon-medal-b-30:hover {
+  cursor: pointer;
+}
+.icon-menu-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -1984px;
+}
+.icon-menu-b-30:hover {
+  cursor: pointer;
+}
+.icon-mobile-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2015px;
+}
+.icon-mobile-b-30:hover {
+  cursor: pointer;
+}
+.icon-monitor_desktop-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2046px;
+}
+.icon-monitor_desktop-b-30:hover {
+  cursor: pointer;
+}
+.icon-move_right-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2077px;
+}
+.icon-move_right-b-30:hover {
+  cursor: pointer;
+}
+.icon-navigation_compass-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2108px;
+}
+.icon-navigation_compass-b-30:hover {
+  cursor: pointer;
+}
+.icon-note-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2139px;
+}
+.icon-note-b-30:hover {
+  cursor: pointer;
+}
+.icon-notebook-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2170px;
+}
+.icon-notebook-b-30:hover {
+  cursor: pointer;
+}
+.icon-notepad-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2201px;
+}
+.icon-notepad-b-30:hover {
+  cursor: pointer;
+}
+.icon-ok_square_button-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2232px;
+}
+.icon-ok_square_button-b-30:hover {
+  cursor: pointer;
+}
+.icon-open_folder-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2263px;
+}
+.icon-open_folder-b-30:hover {
+  cursor: pointer;
+}
+.icon-personal_data-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2294px;
+}
+.icon-personal_data-b-30:hover {
+  cursor: pointer;
+}
+.icon-personal_information-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2325px;
+}
+.icon-personal_information-b-30:hover {
+  cursor: pointer;
+}
+.icon-photo-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2356px;
+}
+.icon-photo-b-30:hover {
+  cursor: pointer;
+}
+.icon-pie_chart-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2387px;
+}
+.icon-pie_chart-b-30:hover {
+  cursor: pointer;
+}
+.icon-place_the_bottom-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2418px;
+}
+.icon-place_the_bottom-b-30:hover {
+  cursor: pointer;
+}
+.icon-portfolio_briefcase-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2449px;
+}
+.icon-portfolio_briefcase-b-30:hover {
+  cursor: pointer;
+}
+.icon-print-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2480px;
+}
+.icon-print-b-30:hover {
+  cursor: pointer;
+}
+.icon-purse-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2511px;
+}
+.icon-purse-b-30:hover {
+  cursor: pointer;
+}
+.icon-pushpin-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2542px;
+}
+.icon-pushpin-b-30:hover {
+  cursor: pointer;
+}
+.icon-recyclebin-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2573px;
+}
+.icon-recyclebin-b-30:hover {
+  cursor: pointer;
+}
+.icon-reduce_window_size_square_button-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2604px;
+}
+.icon-reduce_window_size_square_button-b-30:hover {
+  cursor: pointer;
+}
+.icon-resize_less-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2635px;
+}
+.icon-resize_less-b-30:hover {
+  cursor: pointer;
+}
+.icon-restart-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2666px;
+}
+.icon-restart-b-30:hover {
+  cursor: pointer;
+}
+.icon-root_bubble_with_text-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2697px;
+}
+.icon-root_bubble_with_text-b-30:hover {
+  cursor: pointer;
+}
+.icon-save-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2728px;
+}
+.icon-save-b-30:hover {
+  cursor: pointer;
+}
+.icon-save_in_the_cloud-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2759px;
+}
+.icon-save_in_the_cloud-b-30:hover {
+  cursor: pointer;
+}
+.icon-search-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2790px;
+}
+.icon-search-b-30:hover {
+  cursor: pointer;
+}
+.icon-send_message-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2821px;
+}
+.icon-send_message-b-30:hover {
+  cursor: pointer;
+}
+.icon-settings-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2852px;
+}
+.icon-settings-b-30:hover {
+  cursor: pointer;
+}
+.icon-share-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2883px;
+}
+.icon-share-b-30:hover {
+  cursor: pointer;
+}
+.icon-shop-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2914px;
+}
+.icon-shop-b-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_bag-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2945px;
+}
+.icon-shopping_bag-b-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_cart-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -2976px;
+}
+.icon-shopping_cart-b-30:hover {
+  cursor: pointer;
+}
+.icon-short_arrow_right-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3007px;
+}
+.icon-short_arrow_right-b-30:hover {
+  cursor: pointer;
+}
+.icon-short_round_up_arrow-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3038px;
+}
+.icon-short_round_up_arrow-b-30:hover {
+  cursor: pointer;
+}
+.icon-short_square_up_arrow-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3069px;
+}
+.icon-short_square_up_arrow-b-30:hover {
+  cursor: pointer;
+}
+.icon-spanner-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3100px;
+}
+.icon-spanner-b-30:hover {
+  cursor: pointer;
+}
+.icon-speaker-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3131px;
+}
+.icon-speaker-b-30:hover {
+  cursor: pointer;
+}
+.icon-stretch_horizontally-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3162px;
+}
+.icon-stretch_horizontally-b-30:hover {
+  cursor: pointer;
+}
+.icon-tablet-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3193px;
+}
+.icon-tablet-b-30:hover {
+  cursor: pointer;
+}
+.icon-tag_label_close-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3224px;
+}
+.icon-tag_label_close-b-30:hover {
+  cursor: pointer;
+}
+.icon-target-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3255px;
+}
+.icon-target-b-30:hover {
+  cursor: pointer;
+}
+.icon-text_file-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3286px;
+}
+.icon-text_file-b-30:hover {
+  cursor: pointer;
+}
+.icon-text_left_align-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3317px;
+}
+.icon-text_left_align-b-30:hover {
+  cursor: pointer;
+}
+.icon-toolbar_up-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3348px;
+}
+.icon-toolbar_up-b-30:hover {
+  cursor: pointer;
+}
+.icon-unlock-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3379px;
+}
+.icon-unlock-b-30:hover {
+  cursor: pointer;
+}
+.icon-update-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3410px;
+}
+.icon-update-b-30:hover {
+  cursor: pointer;
+}
+.icon-upload_to_the_server-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3441px;
+}
+.icon-upload_to_the_server-b-30:hover {
+  cursor: pointer;
+}
+.icon-window-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3472px;
+}
+.icon-window-b-30:hover {
+  cursor: pointer;
+}
+.icon-window_form-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3503px;
+}
+.icon-window_form-b-30:hover {
+  cursor: pointer;
+}
+.icon-zoom_in-b-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -124px -3534px;
+}
+.icon-add-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px 0;
+}
+.icon-add-w-30:hover {
+  cursor: pointer;
+}
+.icon-add_file-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -31px;
+}
+.icon-add_file-w-30:hover {
+  cursor: pointer;
+}
+.icon-adjustment_tuning-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -62px;
+}
+.icon-adjustment_tuning-w-30:hover {
+  cursor: pointer;
+}
+.icon-alarm_clock-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -93px;
+}
+.icon-alarm_clock-w-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_three_windows_horizontally-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -124px;
+}
+.icon-arrange_three_windows_horizontally-w-30:hover {
+  cursor: pointer;
+}
+.icon-arrange_up_right-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -155px;
+}
+.icon-arrange_up_right-w-30:hover {
+  cursor: pointer;
+}
+.icon-avatar-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -186px;
+}
+.icon-avatar-w-30:hover {
+  cursor: pointer;
+}
+.icon-award-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -217px;
+}
+.icon-award-w-30:hover {
+  cursor: pointer;
+}
+.icon-back-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -248px;
+}
+.icon-back-w-30:hover {
+  cursor: pointer;
+}
+.icon-bell-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -279px;
+}
+.icon-bell-w-30:hover {
+  cursor: pointer;
+}
+.icon-bomb-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -310px;
+}
+.icon-bomb-w-30:hover {
+  cursor: pointer;
+}
+.icon-burn_fire_hot-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -341px;
+}
+.icon-burn_fire_hot-w-30:hover {
+  cursor: pointer;
+}
+.icon-calendar-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -372px;
+}
+.icon-calendar-w-30:hover {
+  cursor: pointer;
+}
+.icon-chart-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -403px;
+}
+.icon-chart-w-30:hover {
+  cursor: pointer;
+}
+.icon-chart_board-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -434px;
+}
+.icon-chart_board-w-30:hover {
+  cursor: pointer;
+}
+.icon-chart_up-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -465px;
+}
+.icon-chart_up-w-30:hover {
+  cursor: pointer;
+}
+.icon-clip-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -496px;
+}
+.icon-clip-w-30:hover {
+  cursor: pointer;
+}
+.icon-clock_time-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -527px;
+}
+.icon-clock_time-w-30:hover {
+  cursor: pointer;
+}
+.icon-close_folder-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -558px;
+}
+.icon-close_folder-w-30:hover {
+  cursor: pointer;
+}
+.icon-close_square_button-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -589px;
+}
+.icon-close_square_button-w-30:hover {
+  cursor: pointer;
+}
+.icon-database-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -620px;
+}
+.icon-database-w-30:hover {
+  cursor: pointer;
+}
+.icon-database_add-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -651px;
+}
+.icon-database_add-w-30:hover {
+  cursor: pointer;
+}
+.icon-database_delete-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -682px;
+}
+.icon-database_delete-w-30:hover {
+  cursor: pointer;
+}
+.icon-database_edit-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -713px;
+}
+.icon-database_edit-w-30:hover {
+  cursor: pointer;
+}
+.icon-database_lock-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -744px;
+}
+.icon-database_lock-w-30:hover {
+  cursor: pointer;
+}
+.icon-database_search-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -775px;
+}
+.icon-database_search-w-30:hover {
+  cursor: pointer;
+}
+.icon-delete_file-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -806px;
+}
+.icon-delete_file-w-30:hover {
+  cursor: pointer;
+}
+.icon-delete_round_button-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -837px;
+}
+.icon-delete_round_button-w-30:hover {
+  cursor: pointer;
+}
+.icon-dialogue-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -868px;
+}
+.icon-dialogue-w-30:hover {
+  cursor: pointer;
+}
+.icon-diamond_brilliant-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -899px;
+}
+.icon-diamond_brilliant-w-30:hover {
+  cursor: pointer;
+}
+.icon-download_from_the_cloud-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -930px;
+}
+.icon-download_from_the_cloud-w-30:hover {
+  cursor: pointer;
+}
+.icon-drag_and_drop-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -961px;
+}
+.icon-drag_and_drop-w-30:hover {
+  cursor: pointer;
+}
+.icon-duplicate_file-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -992px;
+}
+.icon-duplicate_file-w-30:hover {
+  cursor: pointer;
+}
+.icon-edit-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1023px;
+}
+.icon-edit-w-30:hover {
+  cursor: pointer;
+}
+.icon-edit_file-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1054px;
+}
+.icon-edit_file-w-30:hover {
+  cursor: pointer;
+}
+.icon-edit_note-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1085px;
+}
+.icon-edit_note-w-30:hover {
+  cursor: pointer;
+}
+.icon-exchange_swap-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1116px;
+}
+.icon-exchange_swap-w-30:hover {
+  cursor: pointer;
+}
+.icon-export_file-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1147px;
+}
+.icon-export_file-w-30:hover {
+  cursor: pointer;
+}
+.icon-file-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1178px;
+}
+.icon-file-w-30:hover {
+  cursor: pointer;
+}
+.icon-file_search-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1209px;
+}
+.icon-file_search-w-30:hover {
+  cursor: pointer;
+}
+.icon-filter_text_Z-A-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1240px;
+}
+.icon-filter_text_Z-A-w-30:hover {
+  cursor: pointer;
+}
+.icon-flag-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1271px;
+}
+.icon-flag-w-30:hover {
+  cursor: pointer;
+}
+.icon-folder-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1302px;
+}
+.icon-folder-w-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1333px;
+}
+.icon-full_screen-w-30:hover {
+  cursor: pointer;
+}
+.icon-full_screen_square_button-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1364px;
+}
+.icon-full_screen_square_button-w-30:hover {
+  cursor: pointer;
+}
+.icon-globe-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1395px;
+}
+.icon-globe-w-30:hover {
+  cursor: pointer;
+}
+.icon-heart_liked-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1426px;
+}
+.icon-heart_liked-w-30:hover {
+  cursor: pointer;
+}
+.icon-home-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1457px;
+}
+.icon-home-w-30:hover {
+  cursor: pointer;
+}
+.icon-html_code-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1488px;
+}
+.icon-html_code-w-30:hover {
+  cursor: pointer;
+}
+.icon-image-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1519px;
+}
+.icon-image-w-30:hover {
+  cursor: pointer;
+}
+.icon-import_file-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1550px;
+}
+.icon-import_file-w-30:hover {
+  cursor: pointer;
+}
+.icon-key_password-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1581px;
+}
+.icon-key_password-w-30:hover {
+  cursor: pointer;
+}
+.icon-lamp_info-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1612px;
+}
+.icon-lamp_info-w-30:hover {
+  cursor: pointer;
+}
+.icon-laptop-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1643px;
+}
+.icon-laptop-w-30:hover {
+  cursor: pointer;
+}
+.icon-layers-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1674px;
+}
+.icon-layers-w-30:hover {
+  cursor: pointer;
+}
+.icon-like-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1705px;
+}
+.icon-like-w-30:hover {
+  cursor: pointer;
+}
+.icon-link-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1736px;
+}
+.icon-link-w-30:hover {
+  cursor: pointer;
+}
+.icon-long_arrow_up-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1767px;
+}
+.icon-long_arrow_up-w-30:hover {
+  cursor: pointer;
+}
+.icon-long_round_up_arrow-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1798px;
+}
+.icon-long_round_up_arrow-w-30:hover {
+  cursor: pointer;
+}
+.icon-long_square_down_arrow-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1829px;
+}
+.icon-long_square_down_arrow-w-30:hover {
+  cursor: pointer;
+}
+.icon-mail-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1860px;
+}
+.icon-mail-w-30:hover {
+  cursor: pointer;
+}
+.icon-map-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1891px;
+}
+.icon-map-w-30:hover {
+  cursor: pointer;
+}
+.icon-marker-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1922px;
+}
+.icon-marker-w-30:hover {
+  cursor: pointer;
+}
+.icon-medal-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1953px;
+}
+.icon-medal-w-30:hover {
+  cursor: pointer;
+}
+.icon-menu-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -1984px;
+}
+.icon-menu-w-30:hover {
+  cursor: pointer;
+}
+.icon-mobile-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2015px;
+}
+.icon-mobile-w-30:hover {
+  cursor: pointer;
+}
+.icon-monitor_desktop-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2046px;
+}
+.icon-monitor_desktop-w-30:hover {
+  cursor: pointer;
+}
+.icon-move_right-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2077px;
+}
+.icon-move_right-w-30:hover {
+  cursor: pointer;
+}
+.icon-navigation_compass-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2108px;
+}
+.icon-navigation_compass-w-30:hover {
+  cursor: pointer;
+}
+.icon-note-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2139px;
+}
+.icon-note-w-30:hover {
+  cursor: pointer;
+}
+.icon-notebook-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2170px;
+}
+.icon-notebook-w-30:hover {
+  cursor: pointer;
+}
+.icon-notepad-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2201px;
+}
+.icon-notepad-w-30:hover {
+  cursor: pointer;
+}
+.icon-ok_square_button-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2232px;
+}
+.icon-ok_square_button-w-30:hover {
+  cursor: pointer;
+}
+.icon-open_folder-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2263px;
+}
+.icon-open_folder-w-30:hover {
+  cursor: pointer;
+}
+.icon-personal_data-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2294px;
+}
+.icon-personal_data-w-30:hover {
+  cursor: pointer;
+}
+.icon-personal_information-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2325px;
+}
+.icon-personal_information-w-30:hover {
+  cursor: pointer;
+}
+.icon-photo-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2356px;
+}
+.icon-photo-w-30:hover {
+  cursor: pointer;
+}
+.icon-pie_chart-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2387px;
+}
+.icon-pie_chart-w-30:hover {
+  cursor: pointer;
+}
+.icon-place_the_bottom-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2418px;
+}
+.icon-place_the_bottom-w-30:hover {
+  cursor: pointer;
+}
+.icon-portfolio_briefcase-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2449px;
+}
+.icon-portfolio_briefcase-w-30:hover {
+  cursor: pointer;
+}
+.icon-print-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2480px;
+}
+.icon-print-w-30:hover {
+  cursor: pointer;
+}
+.icon-purse-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2511px;
+}
+.icon-purse-w-30:hover {
+  cursor: pointer;
+}
+.icon-pushpin-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2542px;
+}
+.icon-pushpin-w-30:hover {
+  cursor: pointer;
+}
+.icon-recyclebin-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2573px;
+}
+.icon-recyclebin-w-30:hover {
+  cursor: pointer;
+}
+.icon-reduce_window_size_square_button-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2604px;
+}
+.icon-reduce_window_size_square_button-w-30:hover {
+  cursor: pointer;
+}
+.icon-resize_less-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2635px;
+}
+.icon-resize_less-w-30:hover {
+  cursor: pointer;
+}
+.icon-restart-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2666px;
+}
+.icon-restart-w-30:hover {
+  cursor: pointer;
+}
+.icon-root_bubble_with_text-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2697px;
+}
+.icon-root_bubble_with_text-w-30:hover {
+  cursor: pointer;
+}
+.icon-save-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2728px;
+}
+.icon-save-w-30:hover {
+  cursor: pointer;
+}
+.icon-save_in_the_cloud-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2759px;
+}
+.icon-save_in_the_cloud-w-30:hover {
+  cursor: pointer;
+}
+.icon-search-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2790px;
+}
+.icon-search-w-30:hover {
+  cursor: pointer;
+}
+.icon-send_message-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2821px;
+}
+.icon-send_message-w-30:hover {
+  cursor: pointer;
+}
+.icon-settings-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2852px;
+}
+.icon-settings-w-30:hover {
+  cursor: pointer;
+}
+.icon-share-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2883px;
+}
+.icon-share-w-30:hover {
+  cursor: pointer;
+}
+.icon-shop-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2914px;
+}
+.icon-shop-w-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_bag-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2945px;
+}
+.icon-shopping_bag-w-30:hover {
+  cursor: pointer;
+}
+.icon-shopping_cart-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -2976px;
+}
+.icon-shopping_cart-w-30:hover {
+  cursor: pointer;
+}
+.icon-short_arrow_right-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3007px;
+}
+.icon-short_arrow_right-w-30:hover {
+  cursor: pointer;
+}
+.icon-short_round_up_arrow-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3038px;
+}
+.icon-short_round_up_arrow-w-30:hover {
+  cursor: pointer;
+}
+.icon-short_square_up_arrow-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3069px;
+}
+.icon-short_square_up_arrow-w-30:hover {
+  cursor: pointer;
+}
+.icon-spanner-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3100px;
+}
+.icon-spanner-w-30:hover {
+  cursor: pointer;
+}
+.icon-speaker-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3131px;
+}
+.icon-speaker-w-30:hover {
+  cursor: pointer;
+}
+.icon-stretch_horizontally-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3162px;
+}
+.icon-stretch_horizontally-w-30:hover {
+  cursor: pointer;
+}
+.icon-tablet-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3193px;
+}
+.icon-tablet-w-30:hover {
+  cursor: pointer;
+}
+.icon-tag_label_close-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3224px;
+}
+.icon-tag_label_close-w-30:hover {
+  cursor: pointer;
+}
+.icon-target-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3255px;
+}
+.icon-target-w-30:hover {
+  cursor: pointer;
+}
+.icon-text_file-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3286px;
+}
+.icon-text_file-w-30:hover {
+  cursor: pointer;
+}
+.icon-text_left_align-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3317px;
+}
+.icon-text_left_align-w-30:hover {
+  cursor: pointer;
+}
+.icon-toolbar_up-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3348px;
+}
+.icon-toolbar_up-w-30:hover {
+  cursor: pointer;
+}
+.icon-unlock-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3379px;
+}
+.icon-unlock-w-30:hover {
+  cursor: pointer;
+}
+.icon-update-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3410px;
+}
+.icon-update-w-30:hover {
+  cursor: pointer;
+}
+.icon-upload_to_the_server-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3441px;
+}
+.icon-upload_to_the_server-w-30:hover {
+  cursor: pointer;
+}
+.icon-window-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3472px;
+}
+.icon-window-w-30:hover {
+  cursor: pointer;
+}
+.icon-window_form-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3503px;
+}
+.icon-window_form-w-30:hover {
+  cursor: pointer;
+}
+.icon-zoom_in-w-30 {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(/Resource/Images/ProviderBase/Sprites30.png) no-repeat;
+  background-position: -155px -3534px;
+}

@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8392EFB3-8C6D-4531-9F27-49CB742CC4C7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProviderBaseWebsite</RootNamespace>
+    <AssemblyName>ProviderBaseWebsite</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="Booking.aspx" />
+    <Content Include="Business.aspx" />
+    <Content Include="Contactus.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Event.aspx" />
+    <Content Include="Forum.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Hotel.aspx" />
+    <Content Include="Leisure.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Oops.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resource\Html\Conquest\ConquestGamingFooterWide.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingForumThreadNew.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingHeaderWideLoggedIn.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingOopsInvalidPermission.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingRegister.htm" />
+    <Content Include="Resource\Html\Conquest\ConquetGamingModal.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelAccommodation.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelBooking.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelBusiness.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelContactUs.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelDining.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelEvent.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelEventRooms.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelFooter.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelFooterM.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelHeader.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotel.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelHeaderM.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelInfo.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelLeisure.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelLeisurePhysiotherapy.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelM.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelModal.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelTestimonials.htm" />
+    <Content Include="Resource\Html\OCromwellHotel\OCromwellHotelWedding.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdmin.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilder.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEdit.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEditFieldCustom.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEditFieldObject.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEditItem.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEditItemArea.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEditDesignerItemArea.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEditDesignerItem.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEditDesignerItemAreaField.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEditDesignerHidden.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderEditFieldTable.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderTemplateItemAreaEdit.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderTemplateItemAreaFieldEdit.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminFormBuilderTemplateItemEdit.htm" />
+    <Content Include="Resource\Html\ProviderBase\ProviderBaseAdminReportBuilder.htm" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Monk_Brewmaster.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Monk_Brewmaster.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Monk_Brewmaster_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\Dungeon\WoW_EmeraldNightmareIcon.png" />
+    <Content Include="Resource\Images\Media\Dungeon\WoW_TombOfSargeras.png" />
+    <Content Include="Resource\Images\Media\Dungeon\WoW_TombOfSargerasIcon.png" />
+    <Content Include="Resource\Images\Media\Dungeon\WoW_TrialOfValorIcon.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble1.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble10.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble11.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble2.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble3.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble4.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble5.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble6.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble7.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble8.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationDouble9.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationExecutive1.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationExecutive2.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationExecutive3.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationExecutive4.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationExecutive5.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationExecutive6.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationExecutive7.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationExecutive8.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationFamily1.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationFamily2.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationFamily3.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationFamily4.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationFamily5.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationFamily6.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationFamily7.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationFamily8.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationFamily9.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationTwin1.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationTwin2.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationTwin3.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationTwin4.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationTwin5.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationTwin6.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationTwin7.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconAirConditioning.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Award_AA.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Award_MarchLioins.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconBalcony.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconBathShower.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconBathtub.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Booking.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Business.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Carousel_Bedroom.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Carousel_Dining.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Carousel_Garden.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Carousel_HealthBeauty.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Carousel_Leisure.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Carousel_Parties.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Carousel_QualityFood.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Carousel_Wedding.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Carousel_Wedding2.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconCarpet.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Contact.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconDesk.png" />
+    <Content Include="Resource\Images\OCromwellHotel\DiningBreakfast.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\DiningDinner.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\DiningLunch.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\DiningSunday.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Event.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconFireplace.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconHairDryer.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconHeating.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Highlights_Accomodation.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Highlights_LeasureClubSpar.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Highlights_WeLoveQuality.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\HotelAccommodation.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\HotelDining.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\HotelTestimonials.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\IconBooking.png" />
+    <Content Include="Resource\Images\OCromwellHotel\IconDining.png" />
+    <Content Include="Resource\Images\OCromwellHotel\IconEvent.png" />
+    <Content Include="Resource\Images\OCromwellHotel\IconLocation.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Leisure.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\LeisureGymnasium.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\LeisurePhysiotherapy.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\LeisurePhysiotherapyInfo.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\LeisurePool.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\LeisureSwimGym.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\logo.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconPrivateBathroom.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconSeatingArea.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Sprite_Email.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Sprite_Facebook.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Sprite_Location.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Sprite_Telephone.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Sprite_Twitter.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconTeaCoffee.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconTelephone.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconToilet.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconToiletries.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconTV.png" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconWakeUpService.png" />
+    <Content Include="Resource\Images\OCromwellHotel\Wedding.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\Welcome.jpg" />
+    <Content Include="Resource\Images\OCromwellHotel\AccomodationIconWifi.png" />
+    <Content Include="Resource\Images\ProviderBase\Sprites20.png" />
+    <Content Include="Resource\Images\ProviderBase\Sprites30.png" />
+    <Content Include="Resource\Images\ProviderBase\Sprites50.png" />
+    <Content Include="Resource\Javascript\Ckeditor\CHANGES.md" />
+    <Content Include="Resource\Javascript\Ckeditor\LICENSE.md" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\scayt\CHANGELOG.md" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\scayt\LICENSE.md" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\scayt\README.md" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\wsc\LICENSE.md" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\wsc\README.md" />
+    <Content Include="Resource\Javascript\Ckeditor\README.md" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\assets\posteddata.php" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\sample_posteddata.php" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\font\config.json" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\font\fontello.eot" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\font\fontello.ttf" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\readme.md" />
+    <Content Include="Resource\Javascript\Conquest\ConquestGaming.min.js">
+      <DependentUpon>ConquestGaming.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingCharacterClass.min.js">
+      <DependentUpon>ConquestGamingCharacterClass.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingForum.min.js">
+      <DependentUpon>ConquestGamingForum.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingLogin.min.js">
+      <DependentUpon>ConquestGamingLogin.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingProgress.min.js">
+      <DependentUpon>ConquestGamingProgress.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingRegister.min.js">
+      <DependentUpon>ConquestGamingRegister.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Jquery\jquery-3.2.1.es5.js">
+      <DependentUpon>jquery-3.2.1.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Jquery\jquery-3.2.1.es5.min.js">
+      <DependentUpon>jquery-3.2.1.es5.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Jquery\jquery-3.2.1.min.js">
+      <DependentUpon>jquery-3.2.1.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Jquery\jquery-Form.min.js">
+      <DependentUpon>jquery-Form.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Jquery\jquery-ui.min.js">
+      <DependentUpon>jquery-ui.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\Login.min.js">
+      <DependentUpon>Login.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\OCromwellHotel\OCromwellHotel.es5.js">
+      <DependentUpon>OCromwellHotel.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\OCromwellHotel\OCromwellHotel.es5.min.js">
+      <DependentUpon>OCromwellHotel.es5.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\OCromwellHotel\OCromwellHotel.min.js">
+      <DependentUpon>OCromwellHotel.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.Admin.min.js">
+      <DependentUpon>ProviderBase.Admin.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.Ajax.min.js">
+      <DependentUpon>ProviderBase.Ajax.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.CkeditorConfig.min.js">
+      <DependentUpon>ProviderBase.CkeditorConfig.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.FormBuilder.min.js">
+      <DependentUpon>ProviderBase.FormBuilder.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.min.js">
+      <DependentUpon>ProviderBase.js</DependentUpon>
+    </Content>
+    <Content Include="Resource\Layouts\Layout4.ascx" />
+    <Content Include="Resource\Styles\Conquest\ConquestGaming.min.css">
+      <DependentUpon>ConquestGaming.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\Conquest\ConquestGamingForum.min.css">
+      <DependentUpon>ConquestGamingForum.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\Conquest\ConquestGamingMenu.min.css">
+      <DependentUpon>ConquestGamingMenu.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\Conquest\ConquestGamingMenuWide.min.css">
+      <DependentUpon>ConquestGamingMenuWide.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\Conquest\ConquestGamingProgress.min.css">
+      <DependentUpon>ConquestGamingProgress.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\Conquest\ConquestGamingRecruitment.min.css">
+      <DependentUpon>ConquestGamingRecruitment.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\Conquest\ConquestGamingRegister.min.css">
+      <DependentUpon>ConquestGamingRegister.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\Jquery\jquery-ui.min.css">
+      <DependentUpon>jquery-ui.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\Jquery\jquery-ui.structure.min.css">
+      <DependentUpon>jquery-ui.structure.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\Jquery\jquery-ui.theme.min.css">
+      <DependentUpon>jquery-ui.theme.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\OCromwellHotel\OCromwellHotel.min.css">
+      <DependentUpon>OCromwellHotel.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\OCromwellHotel\OCromwellHotelMenu.min.css">
+      <DependentUpon>OCromwellHotelMenu.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.min.css">
+      <DependentUpon>ProviderBase.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\ProviderBase\ProviderBaseAdmin.min.css">
+      <DependentUpon>ProviderBaseAdmin.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\XML\OCromwellHotel\OCromwellHotelMenuM.xml" />
+    <Content Include="Resource\XML\OCromwellHotel\OCromwellHotelToken.xml" />
+    <Content Include="Wedding.aspx" />
+    <Content Include="App_Data\51Degrees.dat" />
+    <None Include="bundleconfig.json" />
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingRegister.js" />
+    <Content Include="Resource\Javascript\OCromwellHotel\OCromwellHotel.js" />
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.Admin.js" />
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.FormBuilder.js" />
+    <Content Include="Resource\Layouts\WideLayout3.ascx" />
+    <Content Include="Resource\Styles\Conquest\ConquestGamingMenu.css" />
+    <Content Include="Resource\Styles\Conquest\ConquestGamingMenuWide.css" />
+    <Content Include="Resource\Styles\OCromwellHotel\OCromwellHotel.css" />
+    <Content Include="Resource\Styles\OCromwellHotel\OCromwellHotelMenu.css" />
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.Sprites20.css">
+      <DependentUpon>ProviderBase.Sprites20.less</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.Sprites20.less" />
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.Sprites20.min.css">
+      <DependentUpon>ProviderBase.Sprites20.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.Sprites30.css">
+      <DependentUpon>ProviderBase.Sprites30.less</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.Sprites30.less" />
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.Sprites30.min.css">
+      <DependentUpon>ProviderBase.Sprites30.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.Sprites50.css">
+      <DependentUpon>ProviderBase.Sprites50.less</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.Sprites50.less" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Register.aspx" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingAnnouncement.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingFooter.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingForum.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingForumAreaRepeat.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingForumGroupRepeat.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingForumThreadRepeat.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingHeaderLoggedIn.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingHeaderLoggedOut.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingHeaderLoggedInRepeat.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingLeft.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingNews.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingProgress.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingProgressRepeat.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingRecruitment.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingRecruitmentRepeat.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingRight.htm" />
+    <Content Include="Resource\Html\Conquest\ConquestGamingSchedule.htm" />
+    <Content Include="Resource\Images\Conquest\Conquest_Header.png" />
+    <Content Include="Resource\Images\Conquest\Conquest_Logo.png" />
+    <Content Include="Resource\Images\Conquest\Conquest_LogoImage.png" />
+    <Content Include="Resource\Images\Jquery\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Resource\Images\Jquery\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Resource\Images\Jquery\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Resource\Images\Jquery\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Resource\Images\Jquery\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Resource\Images\Jquery\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Resource\Images\Jquery\ui-icons_222222_256x240.png" />
+    <Content Include="Resource\Images\Jquery\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Resource\Images\Jquery\ui-icons_454545_256x240.png" />
+    <Content Include="Resource\Images\Jquery\ui-icons_888888_256x240.png" />
+    <Content Include="Resource\Images\Jquery\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_DeathKnight_Blood.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_DeathKnight_Frost.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_DeathKnight_Unholy.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_DemonHunter_Havoc.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_DemonHunter_Vengeance.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Druid_Balance.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Druid_Bear.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Druid_Feral.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Druid_Restoration.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Hunter_BeastMaster.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Hunter_Marksman.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Hunter_Survival.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Mage_Arcane.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Mage_Fire.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Mage_Frost.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Monk_Mistweaver.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Monk_Windwalker.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Paladin_Holy.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Paladin_Protection.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Paladin_Retribution.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Priest_Discipline.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Priest_Holy.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Priest_Shadow.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Rogue_Assasination.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Rogue_Outlaw.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Rogue_Subtlety.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Shaman_Elemental.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Shaman_Enhancement.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Shaman_Restoration.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Warlock_Affliction.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Warlock_Demonology.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Warlock_Destruction.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Warrior_Arms.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Warrior_Fury.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClassRole\WoW_Warrior_Proection.jpg" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_DeathKnight.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_DemonHunter.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Druid.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Hunter.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Mage.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Monk.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Paladin.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Priest.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Rogue.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Shaman.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Warlock.png" />
+    <Content Include="Resource\Images\Media\CharacterClass\WoW_Warrior.png" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_BloodElf_Female.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Draenei_Female.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Dwarf_Male.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Gnome_Female.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Goblin_Male.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Human_Male.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Nightelf_Female.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Orc_Female.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Pandaren_Female.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Tauren_Male.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Troll_Female.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Undead_Female.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Undead_Male.jpg" />
+    <Content Include="Resource\Images\Media\CharacterRace\WoW_Worgen_Male.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DeathKnight_Blood.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DeathKnight_Blood_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DeathKnight_Frost.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DeathKnight_Frost_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DeathKnight_Unholy.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DeathKnight_Unholy_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DemonHunter_Havoc.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DemonHunter_Havoc_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DemonHunter_Vengeance.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_DemonHunter_Vengeance_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Druid_Balance.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Druid_Balance_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Druid_Bear.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Druid_Bear_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Druid_Feral.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Druid_Feral_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Druid_Restoration.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Druid_Restoration_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Hunter_BeastMaster.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Hunter_BeastMaster_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Hunter_Marksman.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Hunter_Marksman_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Hunter_Survival.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Hunter_Survival_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Mage_Arcane.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Mage_Arcane_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Mage_Fire.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Mage_Fire_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Mage_Frost.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Mage_Frost_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Monk_Mistweaver.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Monk_Mistweaver_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Monk_Windwalker.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Monk_Windwalker_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Paladin_Holy.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Paladin_Holy_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Paladin_Protection.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Paladin_Protection_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Paladin_Retribution.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Paladin_Retribution_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Priest_Discipline.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Priest_Discipline_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Priest_Holy.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Priest_Holy_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Priest_Shadow.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Priest_Shadow_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Rogue_Assasination.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Rogue_Assasination_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Rogue_Outlaw.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Rogue_Outlaw_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Rogue_Subtlety.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Rogue_Subtlety_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Shaman_Elemental.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Shaman_Elemental_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Shaman_Enhancement.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Shaman_Enhancement_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Shaman_Restoration.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Shaman_Restoration_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warlock_Affliction.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warlock_Affliction_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warlock_Demonology.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warlock_Demonology_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warlock_Destruction.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warlock_Destruction_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warrior_Arms.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warrior_Arms_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warrior_Fury.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warrior_Fury_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warrior_Proection.jpg" />
+    <Content Include="Resource\Images\Media\ClassRoleRecruitment\WoW_Warrior_Proection_Greyscale.jpg" />
+    <Content Include="Resource\Images\Media\Dungeon\WoW_EmeraldNightmare.png" />
+    <Content Include="Resource\Images\Media\Dungeon\WoW_Nighthold.png" />
+    <Content Include="Resource\Images\Media\Dungeon\WoW_NightholdIcon.png" />
+    <Content Include="Resource\Images\Media\Dungeon\WoW_TrialOfValor.png" />
+    <Content Include="Resource\Images\Media\Expansion\WoW_Legion.jpg" />
+    <Content Include="Resource\Images\Media\General\WoW_Icon.png" />
+    <Content Include="Resource\Images\Media\Progress\WoW_Instance_HeroicIcon.png" />
+    <Content Include="Resource\Images\Media\Progress\WoW_Instance_MythicIcon.png" />
+    <Content Include="Resource\Images\Media\Progress\WoW_Instance_NormalIcon.png" />
+    <Content Include="Resource\Images\Media\Progress\WoW_Instance_RaidFinderIcon.png" />
+    <Content Include="Resource\Javascript\Ckeditor\adapters\jquery.js" />
+    <Content Include="Resource\Javascript\Ckeditor\build-config.js" />
+    <Content Include="Resource\Javascript\Ckeditor\ckeditor.js" />
+    <Content Include="Resource\Javascript\Ckeditor\config.js" />
+    <Content Include="Resource\Javascript\Ckeditor\contents.css" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\af.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ar.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\az.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\bg.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\bn.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\bs.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ca.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\cs.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\cy.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\da.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\de-ch.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\de.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\el.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\en-au.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\en-ca.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\en-gb.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\en.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\eo.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\es-mx.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\es.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\et.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\eu.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\fa.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\fi.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\fo.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\fr-ca.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\fr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\gl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\gu.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\he.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\hi.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\hr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\hu.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\id.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\is.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\it.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ja.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ka.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\km.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ko.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ku.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\lt.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\lv.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\mk.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\mn.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ms.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\nb.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\nl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\no.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\oc.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\pl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\pt-br.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\pt.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ro.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ru.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\si.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\sk.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\sl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\sq.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\sr-latn.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\sr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\sv.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\th.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\tr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\tt.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\ug.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\uk.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\vi.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\zh-cn.js" />
+    <Content Include="Resource\Javascript\Ckeditor\lang\zh.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\af.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\ar.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\az.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\bg.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\ca.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\cs.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\cy.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\da.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\de-ch.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\de.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\el.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\en.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\eo.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\es-mx.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\es.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\et.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\eu.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\fa.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\fi.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\fo.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\fr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\gl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\gu.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\he.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\hi.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\hr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\hu.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\id.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\it.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\ja.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\km.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\ko.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\ku.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\lt.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\lv.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\mk.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\mn.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\nb.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\nl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\no.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\oc.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\pl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\pt.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\ro.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\ru.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\si.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\sk.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\sl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\sq.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\sr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\sv.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\th.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\tr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\tt.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\ug.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\uk.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\vi.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\zh.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\icons.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\icons_hidpi.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\image\images\noimage.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\link\images\anchor.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\link\images\hidpi\anchor.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\magicline\images\hidpi\icon-rtl.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\magicline\images\hidpi\icon.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\magicline\images\icon-rtl.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\magicline\images\icon.png" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\scayt\dialogs\dialog.css" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\scayt\skins\moono-lisa\scayt.css" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\af.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\ar.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\az.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\bg.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\ca.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\cs.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\cy.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\da.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\de-ch.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\de.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\el.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\en-au.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\en-ca.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\en-gb.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\en.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\eo.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\es-mx.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\es.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\et.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\eu.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\fa.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\fi.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\fr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\gl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\he.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\hr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\hu.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\id.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\it.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\ja.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\km.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\ko.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\ku.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\lt.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\lv.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\nb.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\nl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\no.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\oc.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\pl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\pt-br.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\pt.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\ru.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\si.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\sk.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\sl.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\sq.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\sv.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\th.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\tr.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\tt.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\ug.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\uk.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\vi.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\zh.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\tableselection\styles\tableselection.css" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\wsc\dialogs\wsc_ie.js" />
+    <Content Include="Resource\Javascript\Ckeditor\plugins\wsc\skins\moono-lisa\wsc.css" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\css\samples.css" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\img\github-top.png" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\img\header-bg.png" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\img\header-separator.png" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\img\logo.png" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\img\navigation-tip.png" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\index.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\js\sample.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\js\sf.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\ajax.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\api.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\appendto.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\assets\inlineall\logo.png" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\assets\outputxhtml\outputxhtml.css" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\assets\sample.jpg" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\assets\uilanguages\languages.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\datafiltering.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\dialog\assets\my_dialog.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\dialog\dialog.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\divreplace.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\enterkey\enterkey.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.swf" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\htmlwriter\assets\outputforflash\swfobject.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\htmlwriter\outputforflash.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\htmlwriter\outputhtml.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\index.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\inlineall.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\inlinebycode.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\inlinetextarea.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\jquery.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\magicline\magicline.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\readonly.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\replacebyclass.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\replacebycode.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\sample.css" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\sample.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\tabindex.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\toolbar\toolbar.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\uicolor.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\uilanguages.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\wysiwygarea\fullpage.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\old\xhtmlstyle.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\css\fontello.css" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\font\fontello.svg" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\font\LICENSE.txt" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\index.html" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css" />
+    <Content Include="Resource\Javascript\Ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\dialog.css" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\dialog_ie.css" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\dialog_ie8.css" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\dialog_iequirks.css" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\editor.css" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\editor_gecko.css" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\editor_ie.css" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\editor_ie8.css" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\editor_iequirks.css" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\icons.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\icons_hidpi.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\arrow.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\close.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\hidpi\close.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\hidpi\lock-open.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\hidpi\lock.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\hidpi\refresh.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\lock-open.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\lock.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\refresh.png" />
+    <Content Include="Resource\Javascript\Ckeditor\skins\moono-lisa\images\spinner.gif" />
+    <Content Include="Resource\Javascript\Ckeditor\styles.js" />
+    <Content Include="Resource\Javascript\Conquest\ConquestGaming.js" />
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingCharacterClass.js" />
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingForum.js" />
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingLogin.js" />
+    <Content Include="Resource\Javascript\Conquest\ConquestGamingProgress.js" />
+    <Content Include="Resource\Javascript\Jquery\jquery-3.2.1.js" />
+    <Content Include="Resource\Javascript\Jquery\jquery-Form.js" />
+    <Content Include="Resource\Javascript\Jquery\jquery-ui.js" />
+    <Content Include="Resource\Javascript\Login.js" />
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.Ajax.js" />
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.CkeditorConfig.js" />
+    <Content Include="Resource\Javascript\ProviderBase\ProviderBase.js" />
+    <Content Include="Resource\Layouts\Layout1.ascx" />
+    <Content Include="Resource\Layouts\Layout2.ascx" />
+    <Content Include="Resource\Layouts\Layout3.ascx" />
+    <Content Include="Resource\Layouts\LayoutModal1.ascx" />
+    <Content Include="Resource\Styles\Conquest\ConquestGaming.css" />
+    <Content Include="Resource\Styles\Conquest\ConquestGamingForum.css" />
+    <Content Include="Resource\Styles\Conquest\ConquestGamingProgress.css" />
+    <Content Include="Resource\Styles\Conquest\ConquestGamingRecruitment.css" />
+    <Content Include="Resource\Styles\Conquest\ConquestGamingRegister.css" />
+    <Content Include="Resource\Styles\Jquery\jquery-ui.css" />
+    <Content Include="Resource\Styles\Jquery\jquery-ui.structure.css" />
+    <Content Include="Resource\Styles\Jquery\jquery-ui.theme.css" />
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.css" />
+    <Content Include="Resource\Styles\ProviderBase\ProviderBase.Sprites50.min.css">
+      <DependentUpon>ProviderBase.Sprites50.css</DependentUpon>
+    </Content>
+    <Content Include="Resource\Styles\ProviderBase\ProviderBaseAdmin.css" />
+    <Content Include="Resource\XML\Conquest\ConquestGamingMenu.xml" />
+    <Content Include="Resource\XML\Conquest\ConquestGamingPaging.xml" />
+    <Content Include="Resource\XML\OCromwellHotel\OCromwellHotelMenu.xml" />
+    <Content Include="Roster.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.aspx.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account.aspx.designer.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.aspx.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Booking.aspx.designer.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Business.aspx.cs">
+      <DependentUpon>Business.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Business.aspx.designer.cs">
+      <DependentUpon>Business.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contactus.aspx.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contactus.aspx.designer.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Event.aspx.cs">
+      <DependentUpon>Event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event.aspx.designer.cs">
+      <DependentUpon>Event.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forum.aspx.cs">
+      <DependentUpon>Forum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forum.aspx.designer.cs">
+      <DependentUpon>Forum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel.aspx.cs">
+      <DependentUpon>Hotel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hotel.aspx.designer.cs">
+      <DependentUpon>Hotel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leisure.aspx.cs">
+      <DependentUpon>Leisure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leisure.aspx.designer.cs">
+      <DependentUpon>Leisure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Oops.aspx.cs">
+      <DependentUpon>Oops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Oops.aspx.designer.cs">
+      <DependentUpon>Oops.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Roster.aspx.cs">
+      <DependentUpon>Roster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Roster.aspx.designer.cs">
+      <DependentUpon>Roster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wedding.aspx.cs">
+      <DependentUpon>Wedding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wedding.aspx.designer.cs">
+      <DependentUpon>Wedding.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ProviderBase.Data\ProviderBase.Data.csproj">
+      <Project>{6255ed5b-490f-4057-ba40-1f012c2d2c91}</Project>
+      <Name>ProviderBase.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProviderBase.Forum\ProviderBase.Framework.Forum.csproj">
+      <Project>{db8aa18c-a37b-43a3-acbc-6c5a89d16550}</Project>
+      <Name>ProviderBase.Framework.Forum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProviderBase.Framework\ProviderBase.Framework.csproj">
+      <Project>{a7e7ff2d-6f1c-4ba9-b114-eed33fa4c367}</Project>
+      <Name>ProviderBase.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProviderBase.Web\ProviderBase.Web.csproj">
+      <Project>{e28ce6b3-4986-4e71-a6fa-e7a87ffe5330}</Project>
+      <Name>ProviderBase.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61785</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61785/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

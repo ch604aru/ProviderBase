@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MenuItemContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CSSClass>menu</CSSClass>
+  <MenuItemList>
+    <MenuItem>
+      <DisplayText>Hotel</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/</Link>
+      <Tooltip>Hotel</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter>OCromwellHotel.MenuMouseEnter(this, 'Hotel');</OnMouseEnter>
+      <OnMouseLeave>OCromwellHotel.MenuHoverMouseOut('Hotel');</OnMouseLeave>
+      <OnMouseMove>OCromwellHotel.MenuMouseEnter(this, 'Hotel');</OnMouseMove>
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Leisure</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/Leisure</Link>
+      <Tooltip>Leisure</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter>OCromwellHotel.MenuMouseEnter(this, 'Leisure');</OnMouseEnter>
+      <OnMouseLeave>OCromwellHotel.MenuHoverMouseOut('Leisure');</OnMouseLeave>
+      <OnMouseMove>OCromwellHotel.MenuMouseEnter(this, 'Leisure');</OnMouseMove>
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Business</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/Business</Link>
+      <Tooltip>Business</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter />
+      <OnMouseLeave />
+      <OnMouseMove />
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Events</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/Event</Link>
+      <Tooltip>Events</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter>OCromwellHotel.MenuMouseEnter(this, 'Event');</OnMouseEnter>
+      <OnMouseLeave>OCromwellHotel.MenuHoverMouseOut('Event');</OnMouseLeave>
+      <OnMouseMove>OCromwellHotel.MenuMouseEnter(this, 'Event');</OnMouseMove>
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Weddings</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/Wedding</Link>
+      <Tooltip>Weddings</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter />
+      <OnMouseLeave />
+      <OnMouseMove />
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Booking</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/Booking</Link>
+      <Tooltip>Booking</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter />
+      <OnMouseLeave />
+      <OnMouseMove />
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Contact Us</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/ContactUs</Link>
+      <Tooltip>Contact Us</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter />
+      <OnMouseLeave />
+      <OnMouseMove />
+    </MenuItem>
+  </MenuItemList>
+</MenuItemContainer>

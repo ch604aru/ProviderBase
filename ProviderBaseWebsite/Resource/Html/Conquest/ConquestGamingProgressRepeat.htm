@@ -1,0 +1,17 @@
+﻿<div class="progress-content">
+    <div class="progress-content-line">
+        <img class="progress-content-image" src="$MEDIA_MEDIAFULLNAME$" />
+    </div>
+
+    <repeat>
+        <div class="progress-content-line">
+            <img class="progress-content-icon" src="$MEDIA_MEDIAFULLNAME$" />
+            <span class="progress-content-label">$PROGRESSTYPEID$</span>
+            <div class="progress-content-bar">
+                <repeatitem>
+                    <div class="progress-content-bar-item-$ISCOMPLETE.TOLOWER$"></div>
+                </repeatitem>
+            </div>
+        </div>
+    </repeat>
+</div>

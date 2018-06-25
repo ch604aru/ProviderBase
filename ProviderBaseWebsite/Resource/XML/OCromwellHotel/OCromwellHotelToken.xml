@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TokenContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TokenItemList>
+    <TokenItem>
+      <Text>OCromwellHotel/OCromwellHotelInfo.htm</Text>
+      <Token>$OCROMWELLHOTELINFO$</Token>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <UserRoleLevel>0</UserRoleLevel>
+      <TokenItemTypeID>File</TokenItemTypeID>
+    </TokenItem>
+  </TokenItemList>
+</TokenContainer>

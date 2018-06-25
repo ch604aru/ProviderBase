@@ -1,0 +1,108 @@
+﻿<div class="forum-index">
+    <a href="/Forum">
+        Forum Index
+    </a>
+    >
+    <a href="/Forum/Area?id=$FORUMAREAID$">
+        $FORUMAREA_TITLE$
+    </a>
+    >
+    <a href="/Forum/Thread?id=$FORUMTHREADID$">
+        $TITLE$
+    </a>
+</div>
+
+<repeat>
+    <div class="forum-thread-toolbar">
+        <div class="forum-thread-title">
+            <div class="forum-thread-message-profile">&nbsp;</div>
+            <span class="forum-thread-title-item">
+                <a href="/Forum/Thread?id=$FORUMTHREADID$">$TITLE$</a>
+            </span>
+        </div>
+
+        <div class="forum-thread-paging">
+            <form id="ForumThreadPaging" method="post" action="/WebControl.fh?Command=GetForumThread">
+                <div class="paging floatright">
+                    $PAGING$
+
+                    <input type="hidden" name="ID" value="$FORUMTHREADID$" />
+                    <input type="hidden" name="PageSize" value="$PAGESIZE$" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <repeatitem>
+        <div class="forum-thread">
+            <div class="forum-thread-message">
+                <div class="forum-thread-message-profile">
+                    <div class="forum-thread-message-profile-item">
+                        <img class="forum-thread-message-profile-item-profileicon" src="$MEDIA_MEDIAFULLNAME$">
+                    </div>
+
+                    <div class="forum-thread-message-profile-item">
+                        <span class="forum-thread-message-profile-item-text $CHARACTERCLASS_DESCRIPTION.TOLOWER$">$CHARACTERNAME$</span>
+                    </div>
+
+                    <div class="forum-thread-message-profile-item">
+                        <span class="forum-thread-message-profile-item-text">$USER_USERROLETYPEID$</span>
+                    </div>
+
+                    <div class="forum-thread-message-profile-item">
+                        <span class="forum-thread-message-profile-item-text">$CHARACTERLEVEL$</span>
+                    </div>
+
+                    <div class="forum-thread-message-profile-item">
+                        <span class="forum-thread-message-profile-item-text">$CHARACTERRACE_DESCRIPTION$</span>
+                    </div>
+
+                    <div class="forum-thread-message-profile-item">
+                        <span class="forum-thread-message-profile-item-text">$CHARACTERCLASSROLE_DESCRIPTION$ $CHARACTERCLASS_DESCRIPTION$</span>
+                    </div>
+                </div>
+
+                <div class="forum-thread-message-body">
+                    <div class="forum-thread-message-body-content">
+                        $MESSAGETEXT$
+                    </div>
+
+                    <div class="forum-thread-message-body-signature">
+                        $SIGNATURE$
+                    </div>
+                </div>
+            </div>
+        </div>
+    </repeatitem>
+</repeat>
+<loggedin>
+    <div class="forum-thread-new">
+        <form id="NewForumThreadMessage" method="post" action="/WebControl.fh?Command=NewForumThreadMessage">
+            <div class="forum-thread-new-messagetext">
+                <textarea id="ForumThreadMessage" name="ForumThreadMessage"></textarea>
+
+                <input type="hidden" id="ForumThreadID" name="ForumThreadID" value="$FORUMTHREADID$" />
+            </div>
+
+            <div class="forum-thread-new">
+                <div class="forum-thread-new-messagetext">
+                    <div class="forum-thread-new-button">
+                        <button type="submit" name="Action" value="Submit" class="floatleft button">
+                            Submit Post
+                        </button>
+                    </div>
+                    <div class="forum-thread-new-button">
+                        <button type="submit" name="Action" value="Preview" class="floatleft button">
+                            Preview Post
+                        </button>
+                    </div>
+                    <div class="forum-thread-new-message" id="ForumThreadNewMessage"></div>
+                </div>
+            </div>
+        </form>
+
+        <div id="ForumThreadMessagePreview">
+
+        </div>
+    </div>
+</loggedin>

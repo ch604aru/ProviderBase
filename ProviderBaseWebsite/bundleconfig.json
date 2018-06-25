@@ -1,0 +1,200 @@
+[
+  {
+    "outputFileName": "Resource/Styles/ProviderBase/ProviderBase.Sprites20.min.css",
+    "inputFiles": [
+      "Resource/Styles/ProviderBase/ProviderBase.Sprites20.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/ProviderBase/ProviderBase.Sprites30.min.css",
+    "inputFiles": [
+      "Resource/Styles/ProviderBase/ProviderBase.Sprites30.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/ProviderBase/ProviderBase.Sprites50.min.css",
+    "inputFiles": [
+      "Resource/Styles/ProviderBase/ProviderBase.Sprites50.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Conquest/ConquestGaming.min.css",
+    "inputFiles": [
+      "Resource/Styles/Conquest/ConquestGaming.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Conquest/ConquestGamingForum.min.css",
+    "inputFiles": [
+      "Resource/Styles/Conquest/ConquestGamingForum.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Conquest/ConquestGamingMenu.min.css",
+    "inputFiles": [
+      "Resource/Styles/Conquest/ConquestGamingMenu.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Conquest/ConquestGamingMenuWide.min.css",
+    "inputFiles": [
+      "Resource/Styles/Conquest/ConquestGamingMenuWide.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Conquest/ConquestGamingProgress.min.css",
+    "inputFiles": [
+      "Resource/Styles/Conquest/ConquestGamingProgress.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Conquest/ConquestGamingRecruitment.min.css",
+    "inputFiles": [
+      "Resource/Styles/Conquest/ConquestGamingRecruitment.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Conquest/ConquestGamingRegister.min.css",
+    "inputFiles": [
+      "Resource/Styles/Conquest/ConquestGamingRegister.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/OCromwellHotel/OCromwellHotel.min.css",
+    "inputFiles": [
+      "Resource/Styles/OCromwellHotel/OCromwellHotel.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/OCromwellHotel/OCromwellHotelMenu.min.css",
+    "inputFiles": [
+      "Resource/Styles/OCromwellHotel/OCromwellHotelMenu.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/ProviderBase/ProviderBaseAdmin.min.css",
+    "inputFiles": [
+      "Resource/Styles/ProviderBase/ProviderBaseAdmin.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/ProviderBase/ProviderBase.min.css",
+    "inputFiles": [
+      "Resource/Styles/ProviderBase/ProviderBase.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Jquery/jquery-ui.min.css",
+    "inputFiles": [
+      "Resource/Styles/Jquery/jquery-ui.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Jquery/jquery-ui.structure.min.css",
+    "inputFiles": [
+      "Resource/Styles/Jquery/jquery-ui.structure.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Styles/Jquery/jquery-ui.theme.min.css",
+    "inputFiles": [
+      "Resource/Styles/Jquery/jquery-ui.theme.css"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Login.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Login.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/ProviderBase/ProviderBase.min.js",
+    "inputFiles": [
+      "Resource/Javascript/ProviderBase/ProviderBase.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/ProviderBase/ProviderBase.FormBuilder.min.js",
+    "inputFiles": [
+      "Resource/Javascript/ProviderBase/ProviderBase.FormBuilder.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/ProviderBase/ProviderBase.CkeditorConfig.min.js",
+    "inputFiles": [
+      "Resource/Javascript/ProviderBase/ProviderBase.CkeditorConfig.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/ProviderBase/ProviderBase.Ajax.min.js",
+    "inputFiles": [
+      "Resource/Javascript/ProviderBase/ProviderBase.Ajax.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/ProviderBase/ProviderBase.Admin.min.js",
+    "inputFiles": [
+      "Resource/Javascript/ProviderBase/ProviderBase.Admin.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/OCromwellHotel/OCromwellHotel.min.js",
+    "inputFiles": [
+      "Resource/Javascript/OCromwellHotel/OCromwellHotel.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Jquery/jquery-3.2.1.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Jquery/jquery-3.2.1.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Jquery/jquery-Form.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Jquery/jquery-Form.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Jquery/jquery-ui.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Jquery/jquery-ui.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Conquest/ConquestGamingRegister.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Conquest/ConquestGamingRegister.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Conquest/ConquestGamingProgress.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Conquest/ConquestGamingProgress.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Conquest/ConquestGamingLogin.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Conquest/ConquestGamingLogin.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Conquest/ConquestGamingForum.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Conquest/ConquestGamingForum.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Conquest/ConquestGamingCharacterClass.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Conquest/ConquestGamingCharacterClass.js"
+    ]
+  },
+  {
+    "outputFileName": "Resource/Javascript/Conquest/ConquestGaming.min.js",
+    "inputFiles": [
+      "Resource/Javascript/Conquest/ConquestGaming.js"
+    ]
+  }
+]

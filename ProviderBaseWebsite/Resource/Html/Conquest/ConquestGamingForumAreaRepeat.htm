@@ -1,0 +1,93 @@
+﻿<div class="forum-index">
+    <a href="/Forum">
+        Forum Index
+    </a>
+    >
+    <a href="/Forum/Area?id=$FORUMAREAID$">
+        $TITLE$
+    </a>
+</div>
+
+<div class="forum-group-toolbar">
+    <div class="forum-group-new">
+        <div class="forum-group-new-button">
+            <loggedin>
+                <a href="/Forum/ThreadNew?id=$FORUMAREAID$">
+                    <div class="floatleft button">
+                        New Thread
+                    </div>
+                </a>
+            </loggedin>
+        </div>
+    </div>
+    <div class="forum-group-paging">
+        <form id="ForumAreaPaging" method="post" action="/WebControl.fh?Command=GetForumArea" >
+            <div class="paging floatright">
+                $PAGING$
+
+                <input type="hidden" name="ID" value="$FORUMAREAID$" />
+                <input type="hidden" name="PageSize" value="$PAGESIZE$" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<repeat>
+    <div class="forum-group">
+        <div class="forum-group-header">
+            <div class="forum-group-header-container width5">
+                &nbsp;
+            </div>
+            <div class="forum-group-header-container width40">
+                Topics
+            </div>
+            <div class="forum-group-header-container width15">
+                Replies
+            </div>
+            <div class="forum-group-header-container width15">
+                Views
+            </div>
+            <div class="forum-group-header-container width20">
+                Last Post
+            </div>
+        </div>
+
+        <repeatitem>
+            <div class="forum-group-row">
+                <div class="forum-group-row-container width5" style="border: none;">
+                    <img class="forum-group-row-icon" src="/Resource/Images/Conquest/Conquest_LogoIcon.png" />
+                </div>
+                <div class="forum-group-row-container width40">
+                    <span class="forum-group-row-mainitem">
+                        <a href="/Forum/Thread?id=$FORUMTHREADID$">
+                            $TITLE$
+                        </a>
+                    </span>
+                    <span class="forum-group-row-subitem">
+                        by <span class="$CHARACTERCLASS_DESCRIPTION.TOLOWER$">$CHARACTERNAME$</span> - $CREATEDATE$
+                    </span>
+                </div>
+                <div class="forum-group-row-container width15">
+                    <span class="forum-group-row-item">
+                        $FORUMTHREADMESSAGECOUNT$
+                    </span>
+                </div>
+                <div class="forum-group-row-container width15">
+                    <span class="forum-group-row-item">
+                        $FORUMTHREADVIEWCOUNT$
+                    </span>
+                </div>
+                <div class="forum-group-row-container width20">
+                    <span class="forum-group-row-item">
+                        by <span class="$CHARACTERCLASS_DESCRIPTION.TOLOWER$">$CHARACTERNAME$</span>
+                    </span>
+                    <div class="forum-group-row-subitem">
+                        $CREATEDATE$
+                    </div>
+                </div>
+            </div>
+        </repeatitem>
+    </div>
+
+    <div class="forum-border"></div>
+</repeat>

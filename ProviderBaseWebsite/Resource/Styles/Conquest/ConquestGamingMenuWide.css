@@ -1,0 +1,34 @@
+﻿.menu {
+    display: flex;
+    position: relative;
+    float: right;
+    width: 100%;
+    max-width: 500px;
+    margin-top: -40px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+    .menu a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        color: #cccccc;
+    }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+.menu-item {
+    cursor: pointer;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menu-item-selected {
+    text-decoration: underline;
+}

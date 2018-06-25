@@ -1,0 +1,272 @@
+﻿.register-header {
+    float: left;
+    width: 100%;
+    padding: 10px 0 20px 0;
+    font-size: 16px;
+}
+
+.register-content-subheader {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 1px solid #3b3b3b;
+    padding: 20px 0 10px 0;
+}
+
+.register-content-double {
+    float: left;
+    width: 50%;
+}
+
+    .register-content-double .register-content-item {
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+        .register-content-double .register-content-item span {
+            float: left;
+            width: 200px;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        .register-content-double .register-content-item input[type="text"] {
+            float: left;
+            border: 2px solid #3b3b3b;
+            width: 200px;
+            color: #cccccc;
+            margin-bottom: 25px;
+            font-size: 100%;
+            background: transparent;
+        }
+
+        .register-content-double .register-content-item textarea {
+            float: left;
+            border: 2px solid #3b3b3b;
+            width: 100px;
+            height: 100px;
+            color: #cccccc;
+        }
+
+        .register-content-double .register-content-item input[type="checkbox"] {
+          display: none;
+        }
+
+        .register-content-double .register-content-item input[type="checkbox"] + label:before {
+          display: inline-block;
+          width: 18px;
+          height: 18px;
+          margin: 0 5px 0 0;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          border: 2px solid #3b3b3b;
+          content: "\00a0";
+          font: 18px/1em sans-serif;
+          font-weight: bold;
+        }
+
+        .register-content-double .register-content-item input[type="checkbox"]:checked + label:before {
+          background: #141414;
+          color: #cccccc;
+          content: "\2713";
+          text-align: center;
+        }
+
+        .register-content-double .register-content-item input[type="checkbox"]:checked + label:after {
+          font-weight: bold;
+        }
+
+.register-content {
+    float: left;
+    width: 100%;
+}
+
+    .register-content .register-content-item {
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+        .register-content .register-content-item span {
+            float: left;
+            width: 200px;
+            text-align: right;
+            padding-right: 10px;
+            font-size: 100%;
+        background: transparent;
+        }
+
+        .register-content .register-content-item input[type="text"] {
+            float: left;
+            border: 2px solid #3b3b3b;
+            width: 400px;
+            color: #cccccc;
+            margin-bottom: 25px;
+            font-size: 100%;
+        background: transparent;
+        }
+
+        .register-content .register-content-item textarea {
+            float: left;
+            border: 2px solid #3b3b3b;
+            width: 400px;
+            height: 100px;
+            color: #cccccc;
+            font-size: 100%;
+        background: transparent;
+            
+        }
+
+        .register-content .register-content-item input[type="checkbox"] {
+          display: none;
+        }
+
+        .register-content .register-content-item input[type="checkbox"] + label:before {
+          display: inline-block;
+          width: 18px;
+          height: 18px;
+          margin: 0 5px 0 0;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          border: 2px solid #3b3b3b;
+          content: "\00a0";
+          font: 18px/1em sans-serif;
+          font-weight: bold;
+        }
+
+        .register-content .register-content-item input[type="checkbox"]:checked + label:before {
+          background: #141414;
+          color: #cccccc;
+          content: "\2713";
+          text-align: center;
+        }
+
+        .register-content .register-content-item input[type="checkbox"]:checked + label:after {
+          font-weight: bold;
+        }
+
+
+.register-content-profile-image {
+    float: left;
+    padding-right: 10px;
+}
+
+    .register-content-profile-image img {
+        float: left;
+        width: 114px;
+        height: 114px;
+    }
+
+.register-content-profile-item {
+    float: left;
+    padding-right: 10px;
+}
+
+.register-content-profile-detail {
+    float: left;
+    width: calc(100% - 125px);
+    padding-bottom: 5px;
+}
+
+.register-content-profile-detail-icon {
+    float: left;
+    padding-right: 10px;
+}
+
+    .register-content-profile-detail-icon img {
+        float: left;
+        width: 31px;
+        height: 31px;
+    }
+
+.register-content-profile-item-text {
+    float: left;
+}
+
+    .register-content-profile-item-text span {
+        display: flex;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+.register-content-progress-image {
+    float: left;
+    width: 400px;
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+}
+
+    .register-content-progress-image img {
+        float: left;
+        width: 400px;
+    }
+
+.register-content-progress-icon {
+    float: left;
+}
+
+    .register-content-progress-icon img {
+        float: left;
+        height: 22px;
+        width: 22px;
+    }
+
+.register-content-progress-line {
+    float: left;
+    width: calc(100% - 100px);
+    padding: 5px 0;
+}
+
+.register-content-progress-bar {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    height: 10px;
+    border-left: 2px solid #141414;
+    padding-top: 3px;
+}
+
+.register-content-progress-bar-item-true {
+    float: left;
+    background-color: green;
+    flex: 1;
+    border-right: 2px solid #141414;
+}
+
+.register-content-progress-bar-item-false {
+    float: left;
+    background-color: red;
+    flex: 1;
+    border-right: 2px solid #141414;
+}
+
+.register-tooltip {
+    float: left;
+    display: none;
+    position: relative;
+    width: 300px;
+    color: #cacaca;
+    background-color: #141414;
+    border: 2px solid #3b3b3b;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+
+.register-tooltip::after {
+    content: " ";
+    position: absolute;
+    top: 5%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent #3b3b3b transparent transparent;
+}

@@ -1,0 +1,81 @@
+﻿<div class="formbuilder-edit" id="FormBuilder-Edit">
+    <div class="formbuilder-edit-item-element">
+        <div class="formbuilder-edit-tab">
+            <span class="formbuilder-edit-tab-item selected" id="FormBuilder-Edit-Item-Tab" onclick="ProviderBase.TabToggle('FormBuilder-Edit-Item', 'FormBuilder-Edit-Item');">Item</span>
+            <span class="formbuilder-edit-tab-item" id="FormBuilder-Edit-Item-Area-Tab" onclick="ProviderBase.TabToggle('FormBuilder-Edit-Item-Area', 'FormBuilder-Edit-Item');">Area</span>
+        </div>
+
+        <div class="formbuilder-edit-item-main" id="FormBuilder-Edit-Item">
+
+        </div>
+        <div class="formbuilder-edit-item-area-main hide" id="FormBuilder-Edit-Item-Area">
+
+        </div>
+    </div>
+
+    <div class="formbuilder-edit-designer">
+        <div class="formbuilder-edit-tab">
+            <span class="formbuilder-edit-tab-item selected">Design</span>
+            <span class="formbuilder-edit-tab-item">Preview</span>
+        </div>
+
+        <div class="formbuilder-edit-toolbar">
+            <div class="formbuilder-edit-toolbar-item" onclick="ProviderBaseAdmin.HideDesignerAll();">
+                <span class="formbuilder-edit-designer-icon icon-short_arrow_right-w-20 rotate270"></span>
+                <span class="formbuilder-edit-toolbar-text">Collapse all</span>
+            </div>
+            <div class="formbuilder-edit-toolbar-item noborder" onclick="ProviderBaseAdmin.ShowDesignerAll();">
+                <span class="formbuilder-edit-designer-icon icon-short_arrow_right-w-20 rotate90"></span>
+                <span class="formbuilder-edit-toolbar-text">Expand all</span>
+            </div>
+        </div>
+
+        <div id="FormBuilder-Edit-Designer" class="formbuilder-edit-designer-main">
+
+        </div>
+    </div>
+
+    <div class="formbuilder-edit-field">
+        <div class="formbuilder-edit-tab">
+            <span class="formbuilder-edit-tab-item selected" id="FormBuilder-Edit-Field-Main-Table-Tab" onclick="ProviderBase.TabToggle('FormBuilder-Edit-Field-Main-Table', 'FormBuilder-Edit-Field-Main'); ProviderBaseAdmin.FormBuilderTemplateItemAreaFieldMode(FormBuilderTemplateItemAreaFieldMode.Table);">Table</span>
+            <span class="formbuilder-edit-tab-item" id="FormBuilder-Edit-Field-Main-Object-Tab" onclick="ProviderBase.TabToggle('FormBuilder-Edit-Field-Main-Object', 'FormBuilder-Edit-Field-Main'); ProviderBaseAdmin.FormBuilderTemplateItemAreaFieldMode(FormBuilderTemplateItemAreaFieldMode.Object);">Object</span>
+            <span class="formbuilder-edit-tab-item" id="FormBuilder-Edit-Field-Main-Custom-Tab" onclick="ProviderBase.TabToggle('FormBuilder-Edit-Field-Main-Custom', 'FormBuilder-Edit-Field-Main'); ProviderBaseAdmin.FormBuilderTemplateItemAreaFieldMode(FormBuilderTemplateItemAreaFieldMode.Custom);">Custom</span>
+        </div>
+
+        <div class="formbuilder-edit-field-main" id="FormBuilder-Edit-Field-Main-Table">
+            <form id="FormBuilder-Edit-Field-Table-Paging" action="/WebControl.ah?Command=FormBuilderEditFieldTableGet" method="post">
+                <div class="formbuilder-edit-field-definition-list-search">
+                    <input type="text" placeholder="Search..." name="Search" oninput="ProviderBase.Search(this, 4);" />
+                </div>
+
+                <div class="formbuilder-edit-field-table" id="FormBuilder-Edit-Field-Table">
+
+                </div>
+            </form>
+        </div>
+
+        <div class="formbuilder-edit-field-main hide" id="FormBuilder-Edit-Field-Main-Object">
+            <form id="FormBuilder-Edit-Field-Object-Paging" action="/WebControl.ah?Command=FormBuilderEditFieldObjectGet" method="post">
+                <div class="formbuilder-edit-field-definition-list-search">
+                    <input type="text" placeholder="Search..." name="Search" oninput="ProviderBase.Search(this, 4);" />
+                </div>
+
+                <div class="formbuilder-edit-field-table" id="FormBuilder-Edit-Field-Object">
+
+                </div>
+            </form>
+        </div>
+
+        <div class="formbuilder-edit-field-main hide" id="FormBuilder-Edit-Field-Main-Custom">
+            <form id="FormBuilder-Edit-Field-Custom-Paging" action="/WebControl.ah?Command=FormBuilderEditFieldCustomGet" method="post">
+                <div class="formbuilder-edit-field-definition-list-search">
+                    <input type="text" placeholder="Search..." name="Search" oninput="ProviderBase.Search(this, 4);" />
+                </div>
+
+                <div class="formbuilder-edit-field-table" id="FormBuilder-Edit-Field-Custom">
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

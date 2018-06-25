@@ -1,0 +1,67 @@
+﻿<div class="forum-index">
+    <a href="/Forum">
+        Forum Index
+    </a>
+</div>
+
+<repeat>
+    <div class="forum-group">
+        <div class="forum-group-header">
+            <div class="forum-group-header-container width5">
+                &nbsp;
+            </div>
+            <div class="forum-group-header-container width40">
+                <a href="/Forum/Group?id=$FORUMGROUPID$">
+                    $TITLE$
+                </a>
+            </div>
+            <div class="forum-group-header-container width15">
+                Topics
+            </div>
+            <div class="forum-group-header-container width15">
+                Posts
+            </div>
+            <div class="forum-group-header-container width20">
+                Last Post
+            </div>
+        </div>
+
+        <repeatitem>
+            <div class="forum-group-row">
+                <div class="forum-group-row-container width5" style="border: none;">
+                    <img class="forum-group-row-icon" src="/Resource/Images/Conquest/Conquest_LogoIcon.png" />
+                </div>
+                <div class="forum-group-row-container width40">
+                    <span class="forum-group-row-mainitem">
+                        <a href="/Forum/Area?id=$FORUMAREAID$">
+                            $TITLE$
+                        </a>
+                    </span>
+                    <span class="forum-group-row-subitem">
+                        $DESCRIPTION$
+                    </span>
+                </div>
+                <div class="forum-group-row-container width15">
+                    <span class="forum-group-row-item">
+                        $FORUMTHREADCOUNT$
+                    </span>
+                </div>
+                <div class="forum-group-row-container width15">
+                    <span class="forum-group-row-item">
+                        $FORUMTHREADMESSAGECOUNT$
+                    </span>
+                </div>
+                <div class="forum-group-row-container width20">
+                    <span class="forum-group-row-item">
+                        by <span class="$CHARACTERCLASS_DESCRIPTION.TOLOWER$">$CHARACTERNAME$</span>
+                    </span>
+                    <div class="forum-group-row-subitem">
+                        $CREATEDATE$
+                    </div>
+                </div>
+            </div>
+        </repeatitem>
+    </div>
+
+    <div class="forum-border"></div>
+</repeat>

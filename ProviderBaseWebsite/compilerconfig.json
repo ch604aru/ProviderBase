@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "Resource/Styles/ProviderBase/ProviderBase.Sprites20.css",
+    "inputFile": "Resource/Styles/ProviderBase/ProviderBase.Sprites20.less"
+  },
+  {
+    "outputFile": "Resource/Styles/ProviderBase/ProviderBase.Sprites30.css",
+    "inputFile": "Resource/Styles/ProviderBase/ProviderBase.Sprites30.less"
+  },
+  {
+    "outputFile": "Resource/Styles/ProviderBase/ProviderBase.Sprites50.css",
+    "inputFile": "Resource/Styles/ProviderBase/ProviderBase.Sprites50.less"
+  },
+  {
+    "outputFile": "Resource/Javascript/OCromwellHotel/OCromwellHotel.es5.js",
+    "inputFile": "Resource/Javascript/OCromwellHotel/OCromwellHotel.js"
+  },
+  {
+    "outputFile": "Resource/Javascript/Jquery/jquery-3.2.1.es5.js",
+    "inputFile": "Resource/Javascript/Jquery/jquery-3.2.1.js"
+  }
+]

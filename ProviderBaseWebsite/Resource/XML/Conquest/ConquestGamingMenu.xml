@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MenuItemContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CSSClass>menu</CSSClass>
+  <MenuItemList>
+    <MenuItem>
+      <DisplayText>Home</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/</Link>
+      <Tooltip>Home</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter />
+      <OnMouseLeave />
+      <OnMouseMove />
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Register</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/Register</Link>
+      <Tooltip>Forum</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter />
+      <OnMouseLeave />
+      <OnMouseMove />
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Forum</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/Forum</Link>
+      <Tooltip>Register</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter />
+      <OnMouseLeave />
+      <OnMouseMove />
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Roster</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/Roster</Link>
+      <Tooltip>Login</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter />
+      <OnMouseLeave />
+      <OnMouseMove />
+    </MenuItem>
+    <MenuItem>
+      <DisplayText>Contact Us</DisplayText>
+      <DisplayImage />
+      <CSSClass>menu-item</CSSClass>
+      <CSSClassSelected>menu-item menu-item-selected</CSSClassSelected>
+      <Link>/Contactus</Link>
+      <Tooltip>Contact Us</Tooltip>
+      <UserRoleTypeID>0</UserRoleTypeID>
+      <OnClick />
+      <OnMouseEnter />
+      <OnMouseLeave />
+      <OnMouseMove />
+    </MenuItem>
+  </MenuItemList>
+</MenuItemContainer>

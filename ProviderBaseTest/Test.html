@@ -1,0 +1,78 @@
+﻿<form method="post" action="/WebControl.fbh?Command=FormBuilderSubmit">
+  <div class="register-header">
+    Conquest Gaming application
+  </div>
+  <div class="register-content-subheader">Main Character</div>
+  <div class="register-content-double">
+    <div class="register-content-item">
+      <span>Realm</span>
+      <input type="text" id="CharacterUser_CharacterServer" name="CharacterUser_CharacterServer"OnBlur="CharacterClass.GetBlizzardCharacterProfile();">
+    </div>
+    <div class="register-content-item">
+      <span>Character Name</span>
+      <input type="text" id="CharacterUser_CharacterName" name="CharacterUser_CharacterName"OnBlur="CharacterClass.GetBlizzardCharacterProfile();">
+    </div>
+  </div>
+  <div class="register-content-double" id="CharacterProfile" name="CharacterProfile"></div>
+  <div class="register-content-subheader">Game Experience</div>
+  <div class="register-content">
+    <div class="register-content-item">
+      <span>Raid Experience</span>
+      <textarea id="1_RaidExperience" name="1_RaidExperience"></textarea>
+    </div>
+    <div class="register-content-item">
+      <span>Raid Logs</span>
+      <input type="text" id="2_RaidLogs" name="2_RaidLogs">
+    </div>
+    <div class="register-content-item">
+      <span>Your UI</span>
+      <input type="text" id="3_YourUI" name="3_YourUI">
+    </div>
+    <div class="register-content-item">
+      <span>Why Conquest Gaming</span>
+      <textarea id="4_WhyConquestGaming" name="4_WhyConquestGaming"></textarea>
+    </div>
+  </div>
+  <div class="register-content">
+    <div class="register-content-subheader">
+      <span>Your Stat Weights</span>
+    </div>
+    <div class="register-content-item">
+      <span>Critical</span>
+      <input type="text" id="5_Critical" name="5_Critical">
+    </div>
+    <div class="register-content-item">
+      <span>Haste</span>
+      <input type="text" id="6_Haste" name="6_Haste">
+    </div>
+    <div class="register-content-item">
+      <span>Mastery</span>
+      <input type="text" id="7_Mastery" name="7_Mastery">
+    </div>
+    <div class="register-content-item">
+      <span>Versatility</span>
+      <input type="text" id="8_Versatility" name="8_Versatility">
+    </div>
+    <div class="register-content-item">
+      <span>Explanation</span>
+      <textarea id="9_Explanation" name="9_Explanation"></textarea>
+    </div>
+  </div>
+  <div class="register-content">
+    <div class="register-content-subheader">
+      <span>Can you make all raids</span>
+    </div>
+    <div class="register-content-item">
+      <span>Sunday 20:00 - 23:00</span>
+      <input type="checkbox" class="hide" id="10_Sunday" name="10_Sunday">
+        <label for="10_Sunday">
+    </div>
+    <div class="register-content-item">
+      <span>Monday 20:00 - 23:00</span>
+      <input type="checkbox" class="hide" id="11_Monday" name="11_Monday">
+        <label for="11_Monday">
+    </div>
+  </div>
+  <input type="hidden" id="FormBuilder_GUID" name="FormBuilder_GUID" value="6813a929-02a3-484e-952c-ccaa3c9e14c3" />
+  <button type="submit" name="Action" value="Preview" class="floatleft button">Submit</button>
+</form>

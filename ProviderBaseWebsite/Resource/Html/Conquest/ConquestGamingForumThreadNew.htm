@@ -1,0 +1,49 @@
+﻿<div class="forum-index">
+    <a href="/Forum">
+        Forum Index
+    </a>
+    >
+    <a href="/Forum/Area?id=$FORUMAREAID$">
+        $TITLE$
+    </a>
+    >
+    
+</div>
+
+<div class="forum-thread-new">
+    <form id="NewForumThread" method="post" action="/WebControl.fh?Command=NewForumThread">
+        <div class="forum-thread-new-item">
+            <span class="forum-thread-new-item-label">Title</span>
+            <input type="text" name="ForumThreadTitle" id="ForumThreadTitle" class="forum-thread-new-item-input" />
+        </div>
+
+        <div class="forum-thread-new-item">
+            <span class="forum-thread-new-item-label">Message</span>
+            <div class="forum-thread-new-messagetext">
+                <textarea id="ForumThreadMessage" name="ForumThreadMessage"></textarea>
+
+                <input type="hidden" id="ForumAreaID" name="ForumAreaID" value="$FORUMAREAID$" />
+            </div>
+        </div>
+
+        <div class="forum-thread-new">
+            <div class="forum-thread-new-messagetext">
+                <div class="forum-thread-new-button">
+                    <button type="submit" name="Action" value="Submit" class="floatleft button">
+                        Submit Post
+                    </button>
+                </div>
+                <div class="forum-thread-new-button">
+                    <button type="submit" name="Action" value="Preview" class="floatleft button">
+                        Preview Post
+                    </button>
+                </div>
+                <div class="forum-thread-new-message" id="ForumThreadNewMessage"></div>
+            </div>
+        </div>
+    </form>
+
+    <div id="ForumThreadMessagePreview">
+
+    </div>
+</div>

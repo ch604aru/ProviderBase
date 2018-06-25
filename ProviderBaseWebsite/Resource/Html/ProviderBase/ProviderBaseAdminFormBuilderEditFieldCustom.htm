@@ -1,0 +1,17 @@
+﻿<div class="formbuilder-edit-field-definition-list">
+    <repeat>
+        <div class="formbuilder-edit-field-definition-item" onclick="ProviderBaseAdmin.CustomFieldSelect($CUSTOMFIELDID$);">
+            <div class="formbuilder-edit-field-definition-icon icon-open_folder-w-20" id="FormBuilder-Edit-CustomField-Icon-$CUSTOMFIELDID$"></div>
+            <span class="formbuilder-edit-field-definition-title">$TITLE$</span>
+        </div>
+        <div class="formbuilder-edit-field-list hide" id="FormBuilder-Edit-CustomField-$CUSTOMFIELDID$">
+            <repeatitem>
+                <div class="formbuilder-edit-field-item">
+                    <input type="checkbox" class="formbuilder-edit-field-icon" id="FormBuilder-Edit-CustomFieldField-$CUSTOMFIELDITEMID$" onchange="ProviderBaseAdmin.ToggleDesignerItemAreaFieldDrop($CUSTOMFIELDITEMID$);" />
+                    <label for="FormBuilder-Edit-CustomFieldField-$CUSTOMFIELDITEMID$" class="formbuilder-edit-field-title">$TITLE$</label>
+                </div>
+            </repeatitem>
+        </div>
+    </repeat>
+</div>
+$PAGING$

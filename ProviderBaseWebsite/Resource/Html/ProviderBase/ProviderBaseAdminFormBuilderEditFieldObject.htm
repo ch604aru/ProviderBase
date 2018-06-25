@@ -1,0 +1,17 @@
+﻿<div class="formbuilder-edit-field-definition-list">
+    <repeat>
+        <div class="formbuilder-edit-field-definition-item" onclick="ProviderBaseAdmin.TableDefinitionSelect($TABLEDEFINITIONID$);">
+            <div class="formbuilder-edit-field-definition-icon icon-open_folder-w-20" id="FormBuilder-Edit-TableDefinition-Icon-$TABLEDEFINITIONID$"></div>
+            <span class="formbuilder-edit-field-definition-title">$TITLE$</span>
+        </div>
+        <div class="formbuilder-edit-field-list hide" id="FormBuilder-Edit-TableDefinition-$TABLEDEFINITIONID$">
+            <repeatitem>
+                <div class="formbuilder-edit-field-item">
+                    <input type="checkbox" class="formbuilder-edit-field-icon" id="FormBuilder-Edit-TableDefinitionField-$TABLEDEFINITIONFIELDID$" onchange="ProviderBaseAdmin.ToggleDesignerItemAreaFieldDrop($TABLEDEFINITIONFIELDID$);" />
+                    <label for="FormBuilder-Edit-TableDefinitionField-$TABLEDEFINITIONFIELDID$" class="formbuilder-edit-field-title">$TITLE$</label>
+                </div>
+            </repeatitem>
+        </div>
+    </repeat>
+</div>
+$PAGING$
