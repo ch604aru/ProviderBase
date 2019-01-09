@@ -32,6 +32,9 @@ Solution for multiple projects which loads and handles website requests based on
 
 Project started July 2017
 
+## Example website
+http://ec2-34-242-74-101.eu-west-1.compute.amazonaws.com:8081/
+
 ## License
 
 MIT License - See LICENSE file for more information
